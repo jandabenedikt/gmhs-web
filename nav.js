@@ -52,3 +52,15 @@ document.addEventListener('DOMContentLoaded', function () {
     if (e.key === 'Escape') closeAll(null);
   });
 });
+
+// Odsazení pro skoky na kotvy — na stránkách s lištou rychlých odkazů
+// (.anchor-nav, position: sticky nahoře) by se jinak nadpis cílové sekce
+// po kliknutí na kotvu schoval pod touto lištou. Odsazení se počítá podle
+// skutečné výšky lišty, aby fungovalo na všech velikostech obrazovky.
+function updateScrollPadding() {
+  var bar = document.querySelector('.anchor-nav');
+  document.documentElement.style.scrollPaddingTop = bar ? (bar.offsetHeight + 16) + 'px' : '0px';
+}
+window.addEventListener('DOMContentLoaded', updateScrollPadding);
+window.addEventListener('load', updateScrollPadding);
+window.addEventListener('resize', updateScrollPadding);
