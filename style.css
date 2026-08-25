@@ -121,6 +121,13 @@ img { max-width: 100%; }
 }
 .dropdown-menu a:hover { background: var(--bg-alt); opacity: 1; }
 .dropdown-menu a.active { color: var(--accent); font-weight: 600; }
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
 .btn-bakalari {
   background: var(--accent);
   color: var(--bg);
@@ -431,4 +438,61 @@ table.roster-table tr:nth-child(even) td { background: var(--note-bg); }
   .news-grid { grid-template-columns: 1fr; }
   .footer-top { grid-template-columns: 1fr; }
   .grid-2, .grid-3 { grid-template-columns: 1fr; }
+}
+
+/* ---------- Mobilní zobrazení (telefony + tablety/iPady, ≤1024px) ---------- */
+@media (max-width: 1024px) {
+  /* Rozcestník v hlavičce → rozbalovací menu přes hamburger tlačítko */
+  .site-header { position: relative; }
+  .brand { order: 1; }
+  .nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    order: 2;
+    margin-left: auto;
+  }
+  .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--text); }
+  .btn-bakalari { order: 3; }
+  .main-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: var(--card-bg);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 12px 28px rgba(42, 36, 32, 0.10);
+    padding: 8px 0;
+    z-index: 50;
+  }
+  .main-nav.mobile-open { display: flex; }
+  .main-nav .nav-link { display: block; width: 100%; padding: 14px 24px; text-align: left; }
+  .dropdown-menu { position: static; box-shadow: none; border: none; min-width: 0; padding: 0 0 4px 20px; }
+
+  /* Nadpis a zarovnání hero sekce na úvodní stránce */
+  .hero { flex-direction: column; }
+  .hero-text { width: 100%; padding: 0; }
+  .hero-text h1 { font-size: clamp(28px, 7vw, 42px); line-height: 1.16; }
+
+  /* Obsahové fotky se na mobilu nezobrazují (loga a fotky na Naši partneři výjimka) */
+  .hero-image,
+  .about-grid img,
+  .ens-inner img { display: none; }
+  .about-grid { grid-template-columns: 1fr; }
+
+  /* Vložená YouTube videa pod sebe, ne vedle sebe */
+  .video-grid { grid-template-columns: 1fr !important; }
+
+  /* Kotvová lišta (.anchor-nav) se při scrollu dolů schová, při scrollu nahoru vrátí — viz nav.js */
+  .anchor-nav { transition: transform 0.25s ease; }
+  .anchor-nav.anchor-hidden { transform: translateY(-100%); }
 }
