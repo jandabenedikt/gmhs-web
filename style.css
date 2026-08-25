@@ -496,3 +496,12 @@ table.roster-table tr:nth-child(even) td { background: var(--note-bg); }
   .anchor-nav { transition: transform 0.25s ease; }
   .anchor-nav.anchor-hidden { transform: translateY(-100%); }
 }
+
+/* Tabulka pedagogů (Pedagogové a poradenské pracoviště) — na výšku (portrait)
+   na úzkých mobilech vidět jen Jméno a Předmět, zbytek sloupců (Kabinet,
+   Telefon, E-mail) se schová. Po otočení na šířku (landscape) se zobrazí
+   celá tabulka beze změny. */
+@media (max-width: 1024px) and (orientation: portrait) {
+  table.roster-table th:nth-child(n+3),
+  table.roster-table td:nth-child(n+3) { display: none; }
+}
