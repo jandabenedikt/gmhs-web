@@ -220,8 +220,11 @@ h3.sub-num {
 }
 
 .card {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
+  background: var(--bg);
+  border-top: 2px solid var(--border);
+  border-left: 2px solid var(--border);
+  border-right: none;
+  border-bottom: none;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -260,13 +263,13 @@ table.simple-table th {
 table.simple-table tr:nth-child(even) td { background: #fdfbf7; }
 
 /* Plain roster table (Pedagogové a poradenské pracoviště) */
-.roster-table-wrap { border: 1px solid var(--border); background: var(--card-bg); overflow: hidden; }
+.roster-table-wrap { background: var(--card-bg); overflow: hidden; }
 table.roster-table { border-collapse: collapse; width: 100%; }
 table.roster-table th {
   text-align: left; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
-  color: var(--text-faint-2); padding: 10px 12px; border-bottom: 1px solid var(--border-dash);
+  color: var(--text-faint-2); padding: 10px 12px;
 }
-table.roster-table td { font-size: 13.5px; padding: 9px 12px; border-bottom: 1px solid var(--border-row); color: var(--text-body); }
+table.roster-table td { font-size: 13.5px; padding: 9px 12px; color: var(--text-body); }
 table.roster-table tr:nth-child(even) td { background: var(--note-bg); }
 
 .instr-lead { margin: 10px 0 0; font-size: 14px; color: var(--text-muted-2); }
@@ -319,7 +322,7 @@ table.roster-table tr:nth-child(even) td { background: var(--note-bg); }
   border: 1px solid var(--accent); color: var(--accent); padding: 6px 14px; border-radius: 20px;
 }
 .term-row span:last-child, .price-row .price { font-weight: 600; color: var(--accent); white-space: nowrap; }
-.row-box { border: 1px solid var(--border); background: var(--card-bg); padding: 6px 24px; }
+.row-box { background: var(--bg); padding: 6px 24px; }
 
 .anchor-nav {
   position: sticky; top: 0; z-index: 20;
