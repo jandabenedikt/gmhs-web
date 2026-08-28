@@ -36,7 +36,10 @@ html, body {
   color: var(--text);
 }
 
-a { color: inherit; text-decoration: none; }
+/* Obecné pravidlo: text podložený odkazem je vždy podtržený. Výjimky
+   (navigace, tlačítka, karty, ikony) mají text-decoration: none nastaveno
+   výslovně u své třídy níže. */
+a { color: inherit; text-decoration: underline; }
 a:hover { opacity: 0.7; }
 
 .display { font-family: 'Cormorant Garamond', Georgia, serif; }
@@ -119,6 +122,7 @@ img { max-width: 100%; }
   padding: 11px 22px;
   font-size: 14.5px;
   color: var(--text);
+  text-decoration: none;
 }
 .dropdown-menu a:hover { background: var(--bg-alt); opacity: 1; }
 .dropdown-menu a.active { color: var(--accent); font-weight: 600; }
@@ -137,6 +141,7 @@ img { max-width: 100%; }
   font-size: 14px;
   font-weight: 600;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 /* Jednotný styl pro odkazy na PDF soubory — tvar tlačítka Bakaláři, barevnost tlačítek kotev */
@@ -181,6 +186,7 @@ img { max-width: 100%; }
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   color: var(--text-muted);
+  text-decoration: none;
 }
 .footer-copyright { padding-top: 20px; font-size: 12px; color: var(--text-faint); }
 
@@ -344,6 +350,7 @@ table.roster-table tr:nth-child(even) td { background: var(--note-bg); }
   border: 1px solid var(--accent); color: var(--accent);
   padding: 9px 18px; border-radius: 20px; font-size: 14px; font-weight: 600;
   background: var(--bg);
+  text-decoration: none;
 }
 
 /* ---------- Homepage-specific ---------- */
@@ -361,7 +368,7 @@ table.roster-table tr:nth-child(even) td { background: var(--note-bg); }
 .hero-text h1 { margin: 0; font-size: 64px; font-weight: 600; line-height: 1.08; }
 .hero-text p { margin: 0; font-size: 19px; line-height: 1.6; color: var(--text-muted); max-width: 620px; }
 .hero-actions { display: flex; gap: 16px; margin-top: 8px; flex-wrap: wrap; }
-.btn { display: inline-flex; align-items: center; gap: 10px; padding: 15px 28px; font-size: 15px; font-weight: 600; border-radius: 2px; }
+.btn { display: inline-flex; align-items: center; gap: 10px; padding: 15px 28px; font-size: 15px; font-weight: 600; border-radius: 2px; text-decoration: none; }
 .btn-solid { background: var(--accent); color: var(--bg); }
 .btn-outline { border: 1px solid #c9bda9; color: var(--text); }
 .hero-image { flex: 1; position: relative; min-height: 320px; }
@@ -384,9 +391,9 @@ table.roster-table tr:nth-child(even) td { background: var(--note-bg); }
 .news-section { padding: 40px 64px 80px; border-top: 1px solid var(--border); }
 .news-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 28px; }
 .news-head h2 { margin: 0; font-size: 28px; font-weight: 600; }
-.news-head a { font-size: 14px; font-weight: 600; color: var(--accent); }
+.news-head a { font-size: 14px; font-weight: 600; color: var(--accent); text-decoration: none; }
 .news-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 24px; }
-.news-card { background: #fff; padding: 22px; display: flex; flex-direction: column; gap: 12px; }
+.news-card { background: #fff; padding: 22px; display: flex; flex-direction: column; gap: 12px; text-decoration: none; }
 .news-tag {
   align-self: flex-start; font-size: 11px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;
   background: var(--bg-alt); color: #6b5636; padding: 5px 10px; border-radius: 2px;
