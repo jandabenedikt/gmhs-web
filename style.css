@@ -71,13 +71,13 @@ img { max-width: 100%; }
 }
 .brand img { height: 60px; width: auto; display: block; }
 .brand-text { line-height: 1.15; }
-.brand-title { font-size: 19px; font-weight: 600; }
+.brand-title { font-size: 15px; font-weight: 600; color: var(--text); }
 .brand-sub {
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 12px;
-  letter-spacing: 0.06em;
-  color: var(--text-muted-2);
-  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  margin-top: 1px;
 }
 .main-nav {
   display: flex;
@@ -171,10 +171,6 @@ img { max-width: 100%; }
 .footer-brand img { height: 48px; width: auto; display: block; }
 .footer-brand-text { font-size: 14px; line-height: 1.5; color: var(--text-muted); }
 .footer-brand-name { font-size: 15px; font-weight: 600; color: var(--text); }
-.footer-brand-sub {
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 15px; font-weight: 600; color: var(--text); margin-top: 1px;
-}
 .footer-brand-address { font-size: 12px; color: var(--text-muted); margin-top: 8px; }
 .footer-contact { font-size: 14px; line-height: 2; color: var(--text-muted); }
 .footer-contact a { color: var(--text-muted); }
@@ -390,7 +386,7 @@ table.roster-table tr:nth-child(even) td { background: var(--note-bg); }
 .news-head h2 { margin: 0; font-size: 28px; font-weight: 600; }
 .news-head a { font-size: 14px; font-weight: 600; color: var(--accent); }
 .news-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 24px; }
-.news-card { background: #fff; border: 1px solid var(--border); padding: 22px; display: flex; flex-direction: column; gap: 12px; }
+.news-card { background: #fff; padding: 22px; display: flex; flex-direction: column; gap: 12px; }
 .news-tag {
   align-self: flex-start; font-size: 11px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;
   background: var(--bg-alt); color: #6b5636; padding: 5px 10px; border-radius: 2px;
