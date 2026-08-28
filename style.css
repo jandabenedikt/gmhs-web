@@ -285,7 +285,7 @@ table.roster-table th {
   color: var(--text-faint-2); padding: 10px 12px;
 }
 table.roster-table td { font-size: 13.5px; padding: 9px 12px; color: var(--text-body); }
-table.roster-table tr:nth-child(even) td { background: var(--note-bg); }
+table.roster-table tr:nth-child(even) td { background: var(--bg); }
 
 .instr-lead { margin: 10px 0 0; font-size: 14px; color: var(--text-muted-2); }
 .instr-label { margin: 16px 0 0; font-size: 13px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em; }
