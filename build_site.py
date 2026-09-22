@@ -189,6 +189,7 @@ def page(out_path, depth, active_path, title, eyebrow, h1, lead, body_html, desc
     </div>'''
     else:
         h1_html = f'<h1 class="page-title display">{h1}</h1>'
+    canonical_url = f"https://gmhs.cz/{out_path}"
     html = f"""<!doctype html>
 <html lang="cs">
 <head>
@@ -198,6 +199,21 @@ def page(out_path, depth, active_path, title, eyebrow, h1, lead, body_html, desc
 <meta name="description" content="{description}">
 <link rel="stylesheet" href="{prefix}style.css">
 <script src="{prefix}nav.js" defer></script>
+<link rel="icon" href="{prefix}favicon.ico" sizes="any">
+<link rel="icon" href="{prefix}favicon-32x32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="{prefix}favicon-16x16.png" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png">
+<link rel="canonical" href="{canonical_url}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gymnázium a Hudební škola hlavního města Prahy">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{description}">
+<meta property="og:image" content="https://gmhs.cz/images/building.jpg">
+<meta property="og:url" content="{canonical_url}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{title}">
+<meta name="twitter:description" content="{description}">
+<meta name="twitter:image" content="https://gmhs.cz/images/building.jpg">
 </head>
 <body>
 <div class="page">
