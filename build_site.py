@@ -51,6 +51,31 @@ NAV = [
 SOCIAL_IG = "https://www.instagram.com/gmhs_official/"
 SOCIAL_FB = "https://www.facebook.com/GMHS.ZUS/?locale=cs_CZ"
 
+ORG_JSONLD = """<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Gymnázium a Hudební škola hlavního města Prahy",
+  "alternateName": "GMHS",
+  "url": "https://gmhs.cz/",
+  "logo": "https://gmhs.cz/images/logo.png",
+  "image": "https://gmhs.cz/images/building.jpg",
+  "telephone": "+420221434711",
+  "email": "sekretariat@gmhs.cz",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Komenského náměstí 400/9",
+    "postalCode": "130 00",
+    "addressLocality": "Praha 3",
+    "addressCountry": "CZ"
+  },
+  "sameAs": [
+    "https://www.instagram.com/gmhs_official/",
+    "https://www.facebook.com/GMHS.ZUS/?locale=cs_CZ"
+  ]
+}
+</script>"""
+
 
 def nav_html(depth, active_path=None):
     prefix = "../" if depth == 1 else ""
@@ -214,6 +239,7 @@ def page(out_path, depth, active_path, title, eyebrow, h1, lead, body_html, desc
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{description}">
 <meta name="twitter:image" content="https://gmhs.cz/images/building.jpg">
+{ORG_JSONLD}
 </head>
 <body>
 <div class="page">
