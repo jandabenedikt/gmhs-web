@@ -204,7 +204,7 @@ def aktuality_boxes_html(depth=0, count=3):
     return "\n".join(parts)
 
 
-def page(out_path, depth, active_path, title, eyebrow, h1, lead, body_html, description="", h1_extra=""):
+def page(out_path, depth, active_path, title, eyebrow, h1, lead, body_html, description="", h1_extra="", extra_head=""):
     prefix = "../" if depth == 1 else ""
     lead_html = f'\n    <p class="page-lead">{lead}</p>' if lead else ""
     if h1_extra:
@@ -239,7 +239,7 @@ def page(out_path, depth, active_path, title, eyebrow, h1, lead, body_html, desc
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{description}">
 <meta name="twitter:image" content="https://gmhs.cz/images/building.jpg">
-{ORG_JSONLD}
+{ORG_JSONLD}{extra_head}
 </head>
 <body>
 <div class="page">

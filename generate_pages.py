@@ -731,14 +731,16 @@ page(
   </div>
   <noscript>
     <div class="content"><p class="cal-empty">Pro zobrazení kalendáře akcí je potřeba povolit JavaScript.</p></div>
-  </noscript>
-  <script src="kalendar.js" defer></script>""",
+  </noscript>""",
     "Kalendář koncertů a akcí Gymnázia a Hudební školy hlavního města Prahy ve školním roce.",
     # Odběr kalendáře: Google Kalendář (funguje i na Androidu) a webcal:// pro Apple Kalendář / Outlook.
     h1_extra='<div style="display:flex; flex-wrap:wrap; gap:12px;">'
              '<a class="btn btn-solid" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fklasifikace.jphsw.cz%2Fcalendar%2Fical%2F%3Fhash%3D6da9003b743b65f4c0ccd295cc484e57" target="_blank" rel="noopener">Přidat do Google Kalendáře</a>'
              '<a class="btn btn-solid" href="webcal://klasifikace.jphsw.cz/calendar/ical/?hash=6da9003b743b65f4c0ccd295cc484e57">Přidat do Apple / Outlook</a>'
              '</div>',
+    # Styly a skript jen pro tuto stránku; při jejich změně zvýšit číslo ?v=,
+    # aby prohlížeče návštěvníků nepoužily starou verzi z mezipaměti.
+    extra_head='\n<link rel="stylesheet" href="kalendar.css?v=1">\n<script src="kalendar.js?v=1" defer></script>',
 )
 
 # ================================================================ O NÁS ===

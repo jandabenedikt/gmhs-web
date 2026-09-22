@@ -581,12 +581,16 @@ table.roster-table tr:nth-child(even) td { background: var(--bg); }
   .back-to-top { right: 16px; bottom: 16px; width: 42px; height: 42px; }
   .back-to-top svg { width: 18px; height: 18px; }
 
-  /* Kalendář akcí — užší okraje, datum nad názvem akce */
-  .cal-month { padding: 32px 24px 8px; }
-  .cal-months > .cal-empty { padding: 32px 24px; }
+  /* Kalendář akcí — datum nad názvem akce */
   .cal-event { grid-template-columns: 1fr; gap: 10px; padding: 16px 18px; }
   .cal-date { flex-direction: row; align-items: baseline; gap: 10px; }
   .cal-day { font-size: 24px; }
+}
+
+/* Kalendář akcí — užší boční okraje od stejné šířky jako hlavička stránky (.page-header, ≤960px) */
+@media (max-width: 960px) {
+  .cal-month { padding: 32px 24px 8px; }
+  .cal-months > .cal-empty { padding: 32px 24px; }
 }
 
 /* Tabulka pedagogů (Pedagogové a poradenské pracoviště) — na výšku (portrait)
