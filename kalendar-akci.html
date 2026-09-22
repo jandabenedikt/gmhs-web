@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kalendář akcí | GMHS</title>
-<meta name="description" content="Kalendář akcí GMHS — stránka v přípravě.">
+<meta name="description" content="Kalendář koncertů a akcí Gymnázia a Hudební školy hlavního města Prahy ve školním roce.">
 <link rel="stylesheet" href="style.css">
 <script src="nav.js" defer></script>
 <link rel="icon" href="favicon.ico" sizes="any">
@@ -15,12 +15,12 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Gymnázium a Hudební škola hlavního města Prahy">
 <meta property="og:title" content="Kalendář akcí | GMHS">
-<meta property="og:description" content="Kalendář akcí GMHS — stránka v přípravě.">
+<meta property="og:description" content="Kalendář koncertů a akcí Gymnázia a Hudební školy hlavního města Prahy ve školním roce.">
 <meta property="og:image" content="https://gmhs.cz/images/building.jpg">
 <meta property="og:url" content="https://gmhs.cz/kalendar-akci.html">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Kalendář akcí | GMHS">
-<meta name="twitter:description" content="Kalendář akcí GMHS — stránka v přípravě.">
+<meta name="twitter:description" content="Kalendář koncertů a akcí Gymnázia a Hudební školy hlavního města Prahy ve školním roce.">
 <meta name="twitter:image" content="https://gmhs.cz/images/building.jpg">
 <script type="application/ld+json">
 {
@@ -110,12 +110,21 @@
 
   <div class="page-header">
     <div class="eyebrow">Kalendář akcí</div>
-    <h1 class="page-title display">Kalendář akcí</h1>
+    <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px 28px;">
+      <h1 class="page-title display" style="margin:10px 0 0;">Kalendář akcí</h1>
+      <div style="display:flex; flex-wrap:wrap; gap:12px;"><a class="btn btn-solid" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fklasifikace.jphsw.cz%2Fcalendar%2Fical%2F%3Fhash%3D6da9003b743b65f4c0ccd295cc484e57" target="_blank" rel="noopener">Přidat do Google Kalendáře</a><a class="btn btn-solid" href="webcal://klasifikace.jphsw.cz/calendar/ical/?hash=6da9003b743b65f4c0ccd295cc484e57">Přidat do Apple / Outlook</a></div>
+    </div>
   </div>
 
-  <div style="padding: 32px 64px 140px;">
-    <div class="pending-box"><span>V přípravě</span></div>
+  <div class="anchor-nav" id="cal-nav"></div>
+
+  <div id="cal-months" class="cal-months">
+    <p class="cal-empty">Načítám akce…</p>
   </div>
+  <noscript>
+    <div class="content"><p class="cal-empty">Pro zobrazení kalendáře akcí je potřeba povolit JavaScript.</p></div>
+  </noscript>
+  <script src="kalendar.js" defer></script>
 
   <footer class="site-footer">
     <div class="footer-top">

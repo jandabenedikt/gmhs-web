@@ -721,10 +721,24 @@ page(
     "kalendar-akci.html",
     "Kalendář akcí | GMHS",
     "Kalendář akcí", "Kalendář akcí", "",
-    """  <div style="padding: 32px 64px 140px;">
-    <div class="pending-box"><span>V přípravě</span></div>
-  </div>""",
-    "Kalendář akcí GMHS — stránka v přípravě.",
+    # Akce se načítají z data/akce.json (plní ho GitHub Actions ze systému
+    # Klasifikace — viz tools/stahni_kalendar.py) a vykresluje je kalendar.js
+    # do oddílů po měsících školního roku; tlačítka v liště doplní taky kalendar.js.
+    """  <div class="anchor-nav" id="cal-nav"></div>
+
+  <div id="cal-months" class="cal-months">
+    <p class="cal-empty">Načítám akce…</p>
+  </div>
+  <noscript>
+    <div class="content"><p class="cal-empty">Pro zobrazení kalendáře akcí je potřeba povolit JavaScript.</p></div>
+  </noscript>
+  <script src="kalendar.js" defer></script>""",
+    "Kalendář koncertů a akcí Gymnázia a Hudební školy hlavního města Prahy ve školním roce.",
+    # Odběr kalendáře: Google Kalendář (funguje i na Androidu) a webcal:// pro Apple Kalendář / Outlook.
+    h1_extra='<div style="display:flex; flex-wrap:wrap; gap:12px;">'
+             '<a class="btn btn-solid" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fklasifikace.jphsw.cz%2Fcalendar%2Fical%2F%3Fhash%3D6da9003b743b65f4c0ccd295cc484e57" target="_blank" rel="noopener">Přidat do Google Kalendáře</a>'
+             '<a class="btn btn-solid" href="webcal://klasifikace.jphsw.cz/calendar/ical/?hash=6da9003b743b65f4c0ccd295cc484e57">Přidat do Apple / Outlook</a>'
+             '</div>',
 )
 
 # ================================================================ O NÁS ===
