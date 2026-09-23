@@ -106,7 +106,10 @@ AKTUALITY = [
         "title": "Pocta Antonínu Dvořákovi",
         "excerpt": "Ohlédnutí za koncertem ve Zlonicích, kterým jsme zahájili novou koncertní sezonu.",
         "body_html": (
-            '<p class="aktualita-text">Pocta Antonínu Dvořákovi.</p>\n'
+            '<p class="aktualita-text">Gratulujeme žákům gymnázia a hudební školy ke krásnému koncertu! '
+            'Díla nejen Dvořáka, ale i Beethovena, Liszta a dalších předvedli: Evelína Klasnová (HŠ), '
+            'Helena Vydrová (sexta), Ondřej Skopový (sekunda), Matouš Zaplatílek (septima), '
+            'Luna Hovorková (kvinta), Ondřej Petrášek (oktáva) a Viola Lukášová (septima).</p>\n'
             '      <p class="aktualita-text">Koncert ve Zlonicích a blahopřání všem nadějným mladým hudebníkům 🌹</p>\n'
             '      <p class="aktualita-text">Speciální díky Pavel Voráček za klavírní spolupráci celým programem 🌹</p>'
         ),
