@@ -110,7 +110,6 @@ AKTUALITY = [
             'Díla nejen Dvořáka, ale i Beethovena, Liszta a dalších předvedli: Evelína Klasnová (HŠ), '
             'Helena Vydrová (sexta), Ondřej Skopový (sekunda), Matouš Zaplatílek (septima), '
             'Luna Hovorková (kvinta), Ondřej Petrášek (oktáva) a Viola Lukášová (septima).</p>\n'
-            '      <p class="aktualita-text">Koncert ve Zlonicích a blahopřání všem nadějným mladým hudebníkům 🌹</p>\n'
             '      <p class="aktualita-text">Speciální díky Pavel Voráček za klavírní spolupráci celým programem 🌹</p>'
         ),
     },
