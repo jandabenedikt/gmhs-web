@@ -166,25 +166,46 @@ def aktualita_label(categories):
     return ", ".join(CATEGORY_LABELS.get(c, c) for c in categories)
 
 
-def aktualita_bg_class(categories):
-    # Tmavší odstín patří výhradně příspěvkům pouze pro gymnázium — samotná
-    # hudební škola i příspěvky pro obě školy dostávají základní (světlejší)
-    # odstín pozadí webu.
-    if categories == ["gymnazium"]:
-        return "aktualita-gymnazium"
-    return "aktualita-hudebni-skola"
+def aktualita_bg_class(index):
+    # Odstíny oddílů se na stránce Aktuality střídají na přeskáčku podle pořadí
+    # (nejnovější příspěvek = tmavší odstín, další světlejší, atd.), takže
+    # sousední aktuality mají vždy jiný odstín — nezávisle na kategorii.
+    # (Názvy tříd zůstávají kvůli style.css: aktualita-gymnazium = tmavší
+    # var(--bg-alt), aktualita-hudebni-skola = základní var(--bg).)
+    return "aktualita-gymnazium" if index % 2 == 0 else "aktualita-hudebni-skola"
 
 
-def aktuality_section_html(post):
+FB_ICON_SVG = (
+    '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">'
+    '<circle cx="12" cy="12" r="9.5"></circle>'
+    '<path d="M13.8 9.2h1.7V6.6h-1.9c-1.9 0-2.9 1.1-2.9 2.9v1.5H9v2.6h1.7V18h2.6v-4.4h1.8l.4-2.6h-2.2v-1.1c0-.5.2-.7.7-.7z"></path></svg>'
+)
+
+
+def aktualita_fb_button_html(post):
+    """Tlačítko s odkazem na původní FB příspěvek (volitelné pole fb_url)."""
+    url = post.get("fb_url")
+    if not url:
+        return ""
+    return f"""
+      <div class="aktualita-actions">
+        <a class="btn btn-outline" href="{url}" target="_blank" rel="noopener">
+          {FB_ICON_SVG}
+          Zobrazit na Facebooku
+        </a>
+      </div>"""
+
+
+def aktuality_section_html(post, index=0):
     label = aktualita_label(post["category"])
-    bg_class = aktualita_bg_class(post["category"])
+    bg_class = aktualita_bg_class(index)
     date_display = format_date_cz(post["date"])
     return f"""  <div id="{post['slug']}" class="aktualita-block {bg_class}">
     <div class="aktualita-inner">
       <div class="aktualita-tag">{label}</div>
       <h2 class="aktualita-title display">{post['title']}</h2>
       <div class="aktualita-date">{date_display}</div>
-      {post['body_html']}
+      {post['body_html']}{aktualita_fb_button_html(post)}
     </div>
   </div>"""
 

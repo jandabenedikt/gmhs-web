@@ -750,7 +750,7 @@ page(
     "o-nas/aktuality.html",
     "Aktuality — O nás | GMHS",
     "O nás", "Aktuality", "",
-    "\n\n".join(aktuality_section_html(p) for p in sorted_aktuality()),
+    "\n\n".join(aktuality_section_html(p, i) for i, p in enumerate(sorted_aktuality())),
     "Aktuality Gymnázia a Hudební školy hlavního města Prahy.",
 )
 

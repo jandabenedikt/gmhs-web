@@ -23,6 +23,8 @@ Pole u každého příspěvku:
   excerpt   - krátký popis (1–2 věty) pro box na úvodní stránce
   body_html - plný text příspěvku (HTML, typicky jeden nebo více
               odstavců s třídou "aktualita-text")
+  fb_url    - (volitelné) odkaz na původní příspěvek na Facebooku; pokud je
+              vyplněn, pod textem se zobrazí tlačítko „Zobrazit na Facebooku“
 """
 
 AKTUALITY = [
@@ -55,6 +57,58 @@ AKTUALITY = [
             '      <p class="aktualita-text">Vyplňte prosím krátký dotazník (1 min.) na '
             '<a href="https://forms.gle/nyZUg3oy5QUhtQn67" target="_blank" rel="noopener">tomto odkaze</a>.</p>\n'
             '      <p class="aktualita-text">Předem děkujeme za Váš čas :)</p>'
+        ),
+    },
+    {
+        "slug": "zahajeni-skolniho-roku-2026",
+        "fb_url": "https://www.facebook.com/GMHS.ZUS/posts/pfbid0WoKuvYZUKK81qDDxVs9FioTex1prGcfWha7jrESxang4tobgMkBh5Dp1aggrqC1Yl",
+        "category": ["gymnazium"],
+        "date": "2026-09-01",
+        "title": "Zahájení školního roku v duchu džungle",
+        "excerpt": "Nové studenty přivítali letošní oktaváni školním pralesem, úkoly a domorodou snídaní.",
+        "body_html": (
+            '<p class="aktualita-text">Tradiční zahájení školního roku v atriu Gymnázia a Hudební školy '
+            'hl. m. Prahy okořenili letošní oktaváni tématem džungle. Po projití "školním pralesem", '
+            'splnění řady úkolů a ochutnávce domorodé snídaně uvítala nové studenty prim celá škola '
+            'v čele s ředitelem Filipem Magramem. Moc se na ně těšíme a přejeme hodně úspěchů, '
+            'nejen těch studijních a hudebních❤️</p>'
+        ),
+    },
+    {
+        "slug": "ema-adamkova-viden",
+        "fb_url": "https://www.facebook.com/GMHS.ZUS/posts/pfbid02WCAFC4dsx5eMd9JrYT8YM9SADMVszooxgLCpcCK8j9g3hwBgJXPofDfBVQdYupcpl",
+        "category": ["gymnazium", "hudebni-skola"],
+        "date": "2026-09-03",
+        "title": "Ema Adamková vítězkou kytarové soutěže ve Vídni",
+        "excerpt": "Studentka GMHS Ema Adamková zvítězila v mezinárodní kytarové soutěži ve Vídni.",
+        "body_html": (
+            '<p class="aktualita-text">Vynikající úspěch studentky GMHS Emy Adámkové, GRATULUJEME!!!</p>\n'
+            '      <p class="aktualita-text"><a href="https://www.klasikaplus.cz/ema-adamkova-vitezkou-mezinarodni-kytarove-souteze-ve-vidni/" '
+            'target="_blank" rel="noopener">Ema Adamková vítězkou mezinárodní kytarové soutěže ve Vídni</a></p>'
+        ),
+    },
+    {
+        "slug": "koncertni-sezona-zlonice",
+        "fb_url": "https://www.facebook.com/GMHS.ZUS/posts/pfbid0U55gEsx37JfgSnk2MB4vsjqAXvuh8wZQf3GqpH5Lq9xrNWQvNjNfGfgxEV1uZve6l",
+        "category": ["gymnazium", "hudebni-skola"],
+        "date": "2026-09-15",
+        "title": "Koncertní sezonu začínáme ve Zlonicích",
+        "excerpt": "Novou koncertní sezonu tradičně zahajujeme u Antonína Dvořáka ve Zlonicích.",
+        "body_html": (
+            '<p class="aktualita-text">Koncertní sezonu začínáme tradičně ve Zlonicích u Antonína Dvořáka.</p>'
+        ),
+    },
+    {
+        "slug": "pocta-antoninu-dvorakovi",
+        "fb_url": "https://www.facebook.com/GMHS.ZUS/posts/pfbid0mWaumzJdfnx3mw7p5Um5sRJBiScpfh7xpiTP9kLtu2881B9tq6WEVfLwtWDLBmE3l",
+        "category": ["gymnazium", "hudebni-skola"],
+        "date": "2026-09-20",
+        "title": "Pocta Antonínu Dvořákovi",
+        "excerpt": "Ohlédnutí za koncertem ve Zlonicích, kterým jsme zahájili novou koncertní sezonu.",
+        "body_html": (
+            '<p class="aktualita-text">Pocta Antonínu Dvořákovi.</p>\n'
+            '      <p class="aktualita-text">Koncert ve Zlonicích a blahopřání všem nadějným mladým hudebníkům 🌹</p>\n'
+            '      <p class="aktualita-text">Speciální díky Pavel Voráček za klavírní spolupráci celým programem 🌹</p>'
         ),
     },
 ]

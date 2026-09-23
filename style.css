@@ -444,6 +444,7 @@ table.roster-table tr:nth-child(even) td { background: var(--bg); }
 .aktualita-title { margin: 8px 0 0; font-size: 28px; font-weight: 600; }
 .aktualita-date { margin: 8px 0 0; font-size: 13px; color: var(--text-muted-2); }
 .aktualita-text { margin: 16px 0 0; font-size: 15px; line-height: 1.85; color: var(--text-body); }
+.aktualita-actions { margin-top: 24px; }
 
 /* ---------- Gallery cards ---------- */
 /* ---------- Plain lists inside prose ---------- */
