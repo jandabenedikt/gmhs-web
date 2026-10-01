@@ -4,6 +4,11 @@
 Stáhne iCal feed akcí ze systému Klasifikace a uloží ho jako data/akce.json,
 ze kterého stránka kalendar-akci.html (skript kalendar.js) vykresluje akce.
 
+Navíc sestaví data/kalendar.ics — společný kalendář ke stažení/odběru, který
+slučuje VŠECHNY zdroje (Klasifikace + plakát z data/akce-plakat.json) stejně
+jako stránka: při shodě dne i času začátku má přednost akce z plakátu.
+Na tento soubor vedou tlačítka „Přidat do Google Kalendáře“ / „Přidat do Apple / Outlook“.
+
 Spouští ho automaticky GitHub Actions (.github/workflows/kalendar-akci.yml).
 Jde spustit i ručně:  python3 tools/stahni_kalendar.py
 Pro test z lokálního souboru:  python3 tools/stahni_kalendar.py soubor.ics
@@ -21,6 +26,9 @@ FEED_URL = "https://klasifikace.jphsw.cz/calendar/ical/?hash=6da9003b743b65f4c0c
 LOCAL_TZ = ZoneInfo("Europe/Prague")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_PATH = os.path.join(ROOT, "data", "akce.json")
+EXTRA_SOURCES = [os.path.join(ROOT, "data", "akce-plakat.json")]   # další ručně spravované zdroje
+ICS_PATH = os.path.join(ROOT, "data", "kalendar.ics")
+CAL_NAME = "GMHS – Kalendář akcí"
 
 
 def load_ics(source=None):
@@ -168,10 +176,110 @@ def to_json_event(ev):
     }
 
 
+# ------------------------------------------------- společný kalendář (.ics) ---
+
+def ics_escape(text):
+    return (text or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+
+
+def ics_fold(line):
+    """Zalomí řádek na max. 75 bajtů (RFC 5545), bez rozdělení vícebajtového znaku."""
+    out, cur, size = [], "", 0
+    for ch in line:
+        n = len(ch.encode("utf-8"))
+        if size + n > (75 if not out else 74):
+            out.append(cur)
+            cur, size = "", 0
+        cur += ch
+        size += n
+    out.append(cur)
+    return "\r\n ".join(out)
+
+
+def to_utc_stamp(local_iso):
+    dt = datetime.fromisoformat(local_iso).replace(tzinfo=LOCAL_TZ)
+    return dt.astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+
+
+def merged_events():
+    """Akce ze všech zdrojů; při shodě začátku (akce s časem) vyhrává ruční zdroj."""
+    def read(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                return json.load(f).get("events", [])
+        except (OSError, ValueError):
+            return []
+    extra = []
+    for path in EXTRA_SOURCES:
+        extra += read(path)
+    extra_starts = {e["start"] for e in extra if not e.get("allDay")}
+    feed = [e for e in read(OUT_PATH) if e.get("allDay") or e["start"] not in extra_starts]
+    events = feed + extra
+    events.sort(key=lambda e: (e["start"], e["title"]))
+    return events
+
+
+def build_ics(events):
+    import hashlib
+    lines = [
+        "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//GMHS//Kalendar akci//CS", "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH", "X-WR-CALNAME:" + ics_escape(CAL_NAME), "X-WR-TIMEZONE:Europe/Prague",
+        "REFRESH-INTERVAL;VALUE=DURATION:PT3H", "X-PUBLISHED-TTL:PT3H",
+    ]
+    for e in events:
+        uid = hashlib.sha1((e["start"] + "|" + e["title"]).encode("utf-8")).hexdigest()[:20] + "@gmhs.cz"
+        lines += ["BEGIN:VEVENT", "UID:" + uid]
+        if e.get("allDay"):
+            first = date.fromisoformat(e["start"][:10])
+            last = date.fromisoformat((e.get("end") or e["start"])[:10])
+            lines += ["DTSTAMP:" + first.strftime("%Y%m%dT000000Z"),
+                      "DTSTART;VALUE=DATE:" + first.strftime("%Y%m%d"),
+                      "DTEND;VALUE=DATE:" + (last + timedelta(days=1)).strftime("%Y%m%d")]
+        else:
+            start = to_utc_stamp(e["start"])
+            lines += ["DTSTAMP:" + start, "DTSTART:" + start]
+            if e.get("end"):
+                lines.append("DTEND:" + to_utc_stamp(e["end"]))
+        lines.append("SUMMARY:" + ics_escape(e.get("title")))
+        if e.get("location"):
+            lines.append("LOCATION:" + ics_escape(e["location"]))
+        if e.get("description"):
+            lines.append("DESCRIPTION:" + ics_escape(e["description"]))
+        if e.get("url"):
+            lines.append("URL:" + e["url"])
+        lines.append("END:VEVENT")
+    lines.append("END:VCALENDAR")
+    return "\r\n".join(ics_fold(l) for l in lines) + "\r\n"
+
+
+def write_ics():
+    events = merged_events()
+    content = build_ics(events)
+    old = None
+    if os.path.exists(ICS_PATH):
+        with open(ICS_PATH, encoding="utf-8", newline="") as f:
+            old = f.read()
+    if old == content:
+        print(f"data/kalendar.ics beze změny ({len(events)} akcí).")
+        return
+    with open(ICS_PATH, "w", encoding="utf-8", newline="") as f:
+        f.write(content)
+    print(f"Uloženo {len(events)} akcí do data/kalendar.ics.")
+
+
 def main():
+    if "--jen-ics" in sys.argv:          # jen přegenerovat společný kalendář z uložených dat
+        write_ics()
+        return
     source = sys.argv[1] if len(sys.argv) > 1 else None
-    text = load_ics(source)
+    try:
+        text = load_ics(source)
+    except Exception as exc:
+        print(f"Kalendář z Klasifikace se nepodařilo stáhnout ({exc}) — použijí se uložená data.")
+        write_ics()
+        sys.exit(1)
     if "BEGIN:VCALENDAR" not in text:
+        write_ics()
         sys.exit("Stažený soubor nevypadá jako iCal kalendář — data/akce.json se nemění.")
     events = [e for e in (to_json_event(ev) for ev in parse_events(text)) if e]
     events.sort(key=lambda e: (e["start"], e["title"]))
@@ -184,11 +292,12 @@ def main():
         with open(OUT_PATH, encoding="utf-8") as f:
             old = f.read()
     if old == new:
-        print(f"Beze změny ({len(events)} akcí).")
-        return
-    with open(OUT_PATH, "w", encoding="utf-8") as f:
-        f.write(new)
-    print(f"Uloženo {len(events)} akcí do data/akce.json.")
+        print(f"data/akce.json beze změny ({len(events)} akcí).")
+    else:
+        with open(OUT_PATH, "w", encoding="utf-8") as f:
+            f.write(new)
+        print(f"Uloženo {len(events)} akcí do data/akce.json.")
+    write_ics()
 
 
 if __name__ == "__main__":
