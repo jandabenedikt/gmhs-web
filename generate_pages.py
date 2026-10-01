@@ -107,17 +107,17 @@ page(
     <div style="max-width:900px;">
       <h2 class="sec-title">Termíny</h2>
       <div class="row-box">
-        <div class="term-row"><span>Den otevřených dveří</span><span>27. 11. 2025</span></div>
-        <div class="term-row"><span>Den otevřených dveří</span><span>22. 1. 2026</span></div>
+        <div class="term-row"><span>Den otevřených dveří</span><span>26. 11. 2026</span></div>
+        <div class="term-row"><span>Den otevřených dveří</span><span>21. 1. 2027</span></div>
       </div>
-      <p style="margin:14px 0 0; font-size:15px; color:#5c5347;">Vždy <strong>16.00–18.00 hod.</strong></p>
+      <p style="margin:14px 0 0; font-size:15px; color:#5c5347;">Vždy <strong>od 15.30 hod.</strong></p>
     </div>
 
     <div style="border-top:1px solid #e6ddd0; padding-top:32px; margin-top:40px; max-width:900px;">
       <h2 class="sec-title">Program</h2>
       <div class="row-box">
         <div style="display:flex; gap:20px; align-items:baseline; padding:14px 0; border-bottom:1px solid var(--border-row);">
-          <div class="display" style="font-size:18px; font-weight:600; color:var(--accent); min-width:88px; flex-shrink:0;">16.00 hod.</div>
+          <div class="display" style="font-size:18px; font-weight:600; color:var(--accent); min-width:88px; flex-shrink:0;">15.30 hod.</div>
           <div style="font-size:15px; line-height:1.7; color:#3a342c;">Přijďte do foyer školy a nahlédněte spolu s našimi studenty-průvodci přímo do výuky.</div>
         </div>
         <div style="display:flex; gap:20px; align-items:baseline; padding:14px 0;">
@@ -538,7 +538,7 @@ page(
       <h2 class="ens-title">Symfonický orchestr GMHS</h2>
       <p class="ens-text">Symfonický orchestr Gymnázia a Hudební školy hl. m. Prahy je složen z vybraných studentů GMHS. Většina z nich se chce v budoucnosti věnovat profesionální dráze hudebníka. O tom, že se jim to často daří na špičkové úrovni, svědčí mj. to, že řada absolventů školy, kteří prošli Symfonickým orchestrem GMHS, jsou členy České filharmonie, Symfonického orchestru hlavního města Prahy FOK, Symfonického orchestru Českého rozhlasu či prestižních evropských orchestrů, mj. Wienner Filharmoniker, Gewandhaus orchester Liepzig, a dalších. Pódiová zkušenost, kterou mj. i díky Symfonickému orchestru GMHS získávají, vede k tomu, že se mnozí z jeho členů později stávají také vyhledávanými sólisty i členy komorních těles.</p>
       <p class="ens-text">Orchestr pravidelně zkouší a vystupuje nejen na pražských pódiích (Rudolfinum, Obecní dům, Kostel sv. Šimona a Judy, Sál Martinů HAMU, apod.), v České republice, ale i v zahraničí, kam téměř každoročně zavítá. V každé koncertní sezóně se s orchestrem představí i některý předních českých dirigentů a výjimkou není ani spolupráce s pěveckými sbory a významnými českými sólisty.</p>
-      <p class="ens-text">Symfonický orchestr GMHS byl několikrát pozván na mezinárodní hudební festival EUROCHESTRIES do Francie. Pravidelně a úspěšně reprezentuje Hlavní město Prahu ve Spojených Arabských Emirátech (Dubaj, Abú Dhabí, Sarjah), kde pravidelně koncertuje v rámci velkého hudebního festivalu pořádaného Abú Dhabí. Cennou zkušeností zde byl samostatný koncert v rámci hlavního koncertní přehlídky pořádané OSN na hlavní stage EXPO v Dubaji v roce 2021 i o dva roky později v rámci Celosvětové klimatické konference tamtéž. V roce české hudby (2024) zde orchestr provedl Dvořákovu symfonii č. 9 e moll, op. 95 „Z nového Světa“.</p>
+      <p class="ens-text">Symfonický orchestr GMHS byl několikrát pozván na mezinárodní hudební festival EUROCHESTRIES do Francie. Pravidelně a úspěšně reprezentuje Hlavní město Prahu ve Spojených arabských emirátech (Dubaj, Abú Dhabí, Sarjah), kde pravidelně koncertuje v rámci velkého hudebního festivalu pořádaného Abú Dhabí. Cennou zkušeností zde byl samostatný koncert v rámci hlavního koncertní přehlídky pořádané OSN na hlavní stage EXPO v Dubaji v roce 2021 i o dva roky později v rámci Celosvětové klimatické konference tamtéž. V roce české hudby (2024) zde orchestr provedl Dvořákovu symfonii č. 9 e moll, op. 95 „Z nového Světa“.</p>
       <p class="ens-text">Několik let orchestr spolupracuje se studenty Lineckého hudebního gymnázia Adalberta Stiftera v rámci projektu Erasmus + za podpory Evropské unie. Společné koncerty v Pražském Rudolfinu a Brucknerhausu v Linci mají skvělé ohlasy a rozvíjí vzájemné mezinárodní vztahy mezi studenty.</p>
       <p class="ens-text">Repertoár orchestru je rozsáhlý. Vedle světové orchestrální literatury (mj. C. Franck – Symfonie d moll, A. Dvořák – Symfonie č. 6, 8 a 9, F. Mendelssohn-Bartholdy – Hebridy, R. Schubert Symfonie č. 8 „Nedokončená“, W. A. Mozart – Koncertantní symfonie Es dur, G. F. Händel – Vodní hudba, J. Haydn Symfonie 104 G dur „Londýnská“ ad.) studuje i méně uváděná díla českých skladatelů, zaměřuje se také na tematické dramaturgické projekty. Od koncertní sezóny 2025/2026 je dirigentem a uměleckým vedoucím orchestru prof. Petr Jiříkovský.</p>
       <img src="../images/orchestr-symfonicky.jpg" alt="Symfonický orchestr GMHS">
@@ -548,7 +548,14 @@ page(
   <div id="luxiuvenes" class="ens-block alt">
     <div class="ens-inner">
       <h2 class="ens-title">Lux Iuvenes Praga</h2>
-      <p class="ens-pending">Popisek v přípravě.</p>
+      <p class="ens-text">Přestože se orchestr skládá ze studentů nižších ročníků, má během roku mnoho příležitostí získávat zkušenosti na pražských i mimopražských pódiích.</p>
+      <p class="ens-text">Mladí umělci se začínají seznamovat s orchestrální praxí ve smyčcovém obsazení a připravují se na působení v symfonickém orchestru.</p>
+      <p class="ens-text">Lux Iuvenes Praga navštěvuje pravidelně hudební festivaly ve Spojených arabských emirátech a každoročně spolupracuje s pěveckým sborem „Coro Carissimi“ Gymnázia Adalberta Stiftera z rakouského Lince, se kterým úspěšně provedl mnoho vokálně-instrumentálních skladeb v Praze, Linci a v Salzburgu. V letošním školním roce 2026/27 se připravuje na vánoční turné, kdy se ke spolupráci přidají i studenti gymnázia z italského Bolzana.</p>
+      <p class="ens-text">Umělecký vedoucí a dirigent orchestru je MgA. Jakub Waldmann.</p>
+      <p class="ens-text"><strong>Připravujeme:</strong></p>
+      <p class="ens-text">Camille Saint-Saëns: Oratorio de Noël op. 12 (Vánoční oratorium)<br>
+      Petr Eben: Vánoční pastorale<br>
+      Pavel Josef Vejvanovský: Sonata Vespertina, Sonata Natalis</p>
       <img src="../images/orchestr-luxiuvenes.jpg" alt="Lux Iuvenes Praga">
     </div>
   </div>
@@ -734,9 +741,11 @@ page(
   </noscript>""",
     "Kalendář koncertů a akcí Gymnázia a Hudební školy hlavního města Prahy ve školním roce.",
     # Odběr kalendáře: Google Kalendář (funguje i na Androidu) a webcal:// pro Apple Kalendář / Outlook.
+    # Oba vedou na společný kalendář data/kalendar.ics (Klasifikace + plakát), který sestavuje
+    # tools/stahni_kalendar.py v GitHub Actions.
     h1_extra='<div style="display:flex; flex-wrap:wrap; gap:12px;">'
-             '<a class="btn btn-solid" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fklasifikace.jphsw.cz%2Fcalendar%2Fical%2F%3Fhash%3D6da9003b743b65f4c0ccd295cc484e57" target="_blank" rel="noopener">Přidat do Google Kalendáře</a>'
-             '<a class="btn btn-solid" href="webcal://klasifikace.jphsw.cz/calendar/ical/?hash=6da9003b743b65f4c0ccd295cc484e57">Přidat do Apple / Outlook</a>'
+             '<a class="btn btn-solid" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fgmhs.cz%2Fdata%2Fkalendar.ics" target="_blank" rel="noopener">Přidat do Google Kalendáře</a>'
+             '<a class="btn btn-solid" href="webcal://gmhs.cz/data/kalendar.ics">Přidat do Apple / Outlook</a>'
              '</div>',
     # Styly a skript jen pro tuto stránku; při jejich změně zvýšit číslo ?v=,
     # aby prohlížeče návštěvníků nepoužily starou verzi z mezipaměti.
