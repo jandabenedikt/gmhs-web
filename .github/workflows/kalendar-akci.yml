@@ -1,11 +1,16 @@
-# Každé 3 hodiny stáhne kalendář akcí ze systému Klasifikace a uloží ho
-# do data/akce.json. Commit vznikne jen tehdy, když se akce opravdu změnily.
+# Každé 3 hodiny stáhne kalendář akcí ze systému Klasifikace (data/akce.json)
+# a sestaví společný kalendář ke stažení ze všech zdrojů (data/kalendar.ics).
+# Spustí se i hned po nahrání nového plakátu (data/akce-plakat.json).
 # Ručně jde spustit v záložce Actions → „Kalendář akcí“ → Run workflow.
 name: Kalendář akcí
 
 on:
   schedule:
     - cron: "17 */3 * * *"
+  push:
+    paths:
+      - "data/akce-plakat.json"
+      - "tools/stahni_kalendar.py"
   workflow_dispatch:
 
 permissions:
@@ -25,17 +30,18 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Stáhnout a převést kalendář
+      - name: Stáhnout kalendář a sestavit společný kalendář
         run: python3 tools/stahni_kalendar.py
 
       - name: Uložit změny
         run: |
-          if git diff --quiet -- data/akce.json && git ls-files --error-unmatch data/akce.json >/dev/null 2>&1; then
+          git add data/akce.json data/kalendar.ics
+          if git diff --cached --quiet; then
             echo "Kalendář se nezměnil."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/akce.json
           git commit -m "Aktualizace kalendáře akcí"
+          git pull --rebase
           git push
