@@ -29,6 +29,8 @@
   text-transform: uppercase; background: var(--bg-alt); color: var(--text-faint-2); padding: 4px 9px; border-radius: 2px;
 }
 .cal-event.is-past { background: transparent; border-left-color: var(--border-2); }
+/* Akce z plakátu školy (data/akce-plakat.json) — tmavší pozadí karty, i u proběhlých */
+.cal-event.is-plakat { background: var(--bg-alt); }
 .cal-event.is-past .cal-day,
 .cal-event.is-past .cal-time,
 .cal-event.is-past .cal-title,

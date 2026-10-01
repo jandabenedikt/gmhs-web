@@ -740,7 +740,7 @@ page(
              '</div>',
     # Styly a skript jen pro tuto stránku; při jejich změně zvýšit číslo ?v=,
     # aby prohlížeče návštěvníků nepoužily starou verzi z mezipaměti.
-    extra_head='\n<link rel="stylesheet" href="kalendar.css?v=1">\n<script src="kalendar.js?v=1" defer></script>',
+    extra_head='\n<link rel="stylesheet" href="kalendar.css?v=2">\n<script src="kalendar.js?v=2" defer></script>',
 )
 
 # ================================================================ O NÁS ===

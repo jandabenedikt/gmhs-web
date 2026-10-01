@@ -1,6 +1,8 @@
-// Kalendář akcí — vykreslí akce z data/akce.json (plní ho GitHub Actions
-// ze systému Klasifikace, viz tools/stahni_kalendar.py) do oddílů po měsících
-// aktuálního školního roku (září–červen) a doplní lištu s odkazy na měsíce.
+// Kalendář akcí — sloučí akce ze dvou zdrojů a vykreslí je do oddílů po měsících
+// aktuálního školního roku (září–červen) + doplní lištu s odkazy na měsíce:
+//  • data/akce.json — ze systému Klasifikace, plní ho GitHub Actions (tools/stahni_kalendar.py)
+//  • data/akce-plakat.json — ručně přepsaný plakát akcí školy; tyto akce mají tmavší pozadí
+// Když je stejná akce v obou zdrojích (stejný den i čas začátku), zobrazí se jen verze z plakátu.
 (function () {
   var MONTHS = [
     { m: 8, id: 'zari', name: 'Září' },
@@ -46,7 +48,7 @@
     if (end < start) end = start;
     return {
       title: ev.title, location: ev.location, description: ev.description, url: ev.url,
-      allDay: !!ev.allDay, start: start, end: end,
+      allDay: !!ev.allDay, start: start, end: end, plakat: !!ev.plakat,
       firstDay: dayOnly(start), lastDay: dayOnly(ev.allDay ? end : (end > start ? new Date(end - 1) : start))
     };
   }
@@ -74,7 +76,7 @@
       ? '<a href="' + esc(ev.url) + '" target="_blank" rel="noopener">' + esc(ev.title) + '</a>'
       : esc(ev.title);
 
-    return '<article class="cal-event' + (past ? ' is-past' : '') + '">' +
+    return '<article class="cal-event' + (ev.plakat ? ' is-plakat' : '') + (past ? ' is-past' : '') + '">' +
       '<div class="cal-date"><span class="cal-day display">' + esc(dateBig) + '</span>' +
       '<span class="cal-weekday">' + esc(dateSmall) + '</span></div>' +
       '<div class="cal-body"><h3 class="cal-title">' + title + '</h3>' +
@@ -126,10 +128,22 @@
     if (box) box.innerHTML = '<p class="cal-empty">Kalendář akcí se nepodařilo načíst. Zkuste prosím stránku obnovit.</p>';
   }
 
-  document.addEventListener('DOMContentLoaded', function () {
-    fetch('data/akce.json', { cache: 'no-cache' })
+  function load(url) {
+    return fetch(url, { cache: 'no-cache' })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (data) { render(data.events || []); })
-      .catch(showError);
+      .then(function (data) { return data.events || []; })
+      .catch(function () { return null; });   // výpadek jednoho zdroje nezablokuje ten druhý
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    Promise.all([load('data/akce.json'), load('data/akce-plakat.json')]).then(function (res) {
+      var feed = res[0], plakat = res[1];
+      if (feed === null && plakat === null) { showError(); return; }
+      plakat = (plakat || []).map(function (ev) { var c = {}; for (var k in ev) c[k] = ev[k]; c.plakat = true; return c; });
+      var plakatStarts = {};
+      plakat.forEach(function (ev) { if (!ev.allDay) plakatStarts[ev.start] = true; });
+      feed = (feed || []).filter(function (ev) { return ev.allDay || !plakatStarts[ev.start]; });
+      render(feed.concat(plakat));
+    });
   });
 })();
