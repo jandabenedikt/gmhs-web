@@ -602,3 +602,19 @@ table.roster-table tr:nth-child(even) td { background: var(--bg); }
   table.roster-table th:nth-child(n+3),
   table.roster-table td:nth-child(n+3) { display: none; }
 }
+
+/* ---------- Kontakt (o-nas/kontakt.html) ----------
+   Dva sloupce vedle sebe; na mobilu na výšku (portrait) skočí pravý sloupec
+   pod levý a svislá dělicí linka se změní na vodorovnou. */
+.contact-wrap { padding: 40px 64px 100px; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; max-width: 1100px; }
+.contact-col-left { padding-right: 48px; }
+.contact-col-right { border-left: 1px solid #e6ddd0; padding-left: 48px; font-size: 16px; line-height: 2; color: #4a4139; }
+@media (max-width: 960px) {
+  .contact-wrap { padding: 32px 24px 72px; }
+}
+@media (max-width: 1024px) and (orientation: portrait) {
+  .contact-grid { grid-template-columns: 1fr; }
+  .contact-col-left { padding-right: 0; }
+  .contact-col-right { border-left: none; padding-left: 0; border-top: 1px solid #e6ddd0; margin-top: 28px; padding-top: 24px; }
+}
