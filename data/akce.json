@@ -1,15 +1,6 @@
 {
  "events": [
   {
-   "title": "Koncert",
-   "allDay": false,
-   "start": "2026-04-01T17:30",
-   "end": "2026-04-01T19:30",
-   "location": "Koncertní sál školy",
-   "description": "",
-   "url": ""
-  },
-  {
    "title": "Koncert dechového oddělení",
    "allDay": false,
    "start": "2026-04-07T18:00",
