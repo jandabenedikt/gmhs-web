@@ -243,7 +243,7 @@ def page(out_path, depth, active_path, title, eyebrow, h1, lead, body_html, desc
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
 <meta name="description" content="{description}">
-<link rel="stylesheet" href="{prefix}style.css?v=2026-10-08">
+<link rel="stylesheet" href="{prefix}style.css?v=2026-10-08-2">
 <script src="{prefix}nav.js" defer></script>
 <link rel="icon" href="{prefix}favicon.ico" sizes="any">
 <link rel="icon" href="{prefix}favicon-32x32.png" type="image/png" sizes="32x32">

@@ -639,3 +639,12 @@ table.roster-table tr:nth-child(even) td { background: var(--bg); }
 @media (min-width: 1366px) {
   .main-nav { --nav-sep: 18px; }
 }
+
+/* ---------- Velké monitory: celá stránka se úměrně zvětší ----------
+   Stránka je navržená na šířku 1440 px. Na širších obrazovkách se celá
+   (písmo, obrázky, okraje) úměrně zvětší, aby vyplnila skoro celou šířku okna. */
+@media (min-width: 1600px) { html { zoom: 1.1; } }
+@media (min-width: 1760px) { html { zoom: 1.2; } }
+@media (min-width: 1920px) { html { zoom: 1.28; } }
+@media (min-width: 2240px) { html { zoom: 1.45; } }
+@media (min-width: 2560px) { html { zoom: 1.7; } }
