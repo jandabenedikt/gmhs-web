@@ -17,42 +17,42 @@ page(
 
     <div style="border-top:1px solid #e6ddd0; padding-top:28px; margin-top:32px;">
       <h2 class="sec-title">Poslání studia</h2>
-      <p style="margin:0; font-size:15px; line-height:1.8; color:#3a342c;">Posláním tohoto typu studia je poskytování plnohodnotného gymnaziálního vzdělání a hlubšího hudebního vzdělání v praktické — individuální formě a hudebně teoretické formě pro budoucí vysokoškoláky nejrůznějšího profesního zaměření.</p>
+      <p style="margin:0; font-size:17px; line-height:1.8; color:#3a342c;">Posláním tohoto typu studia je poskytování plnohodnotného gymnaziálního vzdělání a hlubšího hudebního vzdělání v praktické — individuální formě a hudebně teoretické formě pro budoucí vysokoškoláky nejrůznějšího profesního zaměření.</p>
     </div>
 
     <div style="border-top:1px solid #e6ddd0; padding-top:28px; margin-top:32px;">
       <h2 class="sec-title">Úroveň výuky</h2>
-      <p style="margin:0; font-size:15px; line-height:1.8; color:#3a342c;"><strong>Vysokou úroveň hudební výuky</strong> dokazují vynikající výsledky studentů v národních i mezinárodních soutěžích a bezkonkurenční počty absolventů mezi špičkovými profesionálními hudebníky a hudebními amatéry. Tím získala škola pověst jedné z nejúspěšnějších škol s uměleckým zaměřením v ČR. Vysokou úroveň všeobecných vědomostí prokazují naši absolventi také v oborech přírodovědných a humanitních, mnozí studují i více vysokých škol různých oborů.</p>
+      <p style="margin:0; font-size:17px; line-height:1.8; color:#3a342c;"><strong>Vysokou úroveň hudební výuky</strong> dokazují vynikající výsledky studentů v národních i mezinárodních soutěžích a bezkonkurenční počty absolventů mezi špičkovými profesionálními hudebníky a hudebními amatéry. Tím získala škola pověst jedné z nejúspěšnějších škol s uměleckým zaměřením v ČR. Vysokou úroveň všeobecných vědomostí prokazují naši absolventi také v oborech přírodovědných a humanitních, mnozí studují i více vysokých škol různých oborů.</p>
     </div>
 
     <div style="border-top:1px solid #e6ddd0; padding-top:28px; margin-top:32px;">
       <h2 class="sec-title">Organizace výuky</h2>
-      <p style="margin:0; font-size:15px; line-height:1.8; color:#3a342c;">Výuka ve všech ročnících probíhá vždy ve dvou paralelních třídách (pouze administrativně rozdělených) se shodným Školním vzdělávacím programem (ŠVP). Povinně se vyučuje anglický jazyk a od 3. ročníku (tercie) také německý jazyk.</p>
+      <p style="margin:0; font-size:17px; line-height:1.8; color:#3a342c;">Výuka ve všech ročnících probíhá vždy ve dvou paralelních třídách (pouze administrativně rozdělených) se shodným Školním vzdělávacím programem (ŠVP). Povinně se vyučuje anglický jazyk a od 3. ročníku (tercie) také německý jazyk.</p>
     </div>
 
     <div style="border-top:1px solid #e6ddd0; padding-top:28px; margin-top:32px;">
       <h2 class="sec-title">Druhý stupeň studia — od kvinty do oktávy</h2>
-      <p style="margin:0; font-size:15px; line-height:1.8; color:#3a342c;">Studenti si mohou volit z nabídky volitelných, povinně volitelných i nepovinných předmětů — s ohledem na své budoucí zaměření (hlubší rozvoj výuky hudebních dovedností a znalostí nebo humanitních vědomostí, příp. přírodovědných znalostí).</p>
+      <p style="margin:0; font-size:17px; line-height:1.8; color:#3a342c;">Studenti si mohou volit z nabídky volitelných, povinně volitelných i nepovinných předmětů — s ohledem na své budoucí zaměření (hlubší rozvoj výuky hudebních dovedností a znalostí nebo humanitních vědomostí, příp. přírodovědných znalostí).</p>
     </div>
 
     <div style="border-top:1px solid #e6ddd0; padding-top:28px; margin-top:32px;">
       <h2 class="sec-title">Cíl studia</h2>
-      <p style="margin:0; font-size:15px; line-height:1.8; color:#3a342c;">Cílem studia je příprava na vyšší odbornou nebo vysokou školu hudebního, humanitního, přírodovědného nebo technického zaměření.</p>
+      <p style="margin:0; font-size:17px; line-height:1.8; color:#3a342c;">Cílem studia je příprava na vyšší odbornou nebo vysokou školu hudebního, humanitního, přírodovědného nebo technického zaměření.</p>
     </div>
 
     <div style="border-top:1px solid #e6ddd0; padding-top:28px; margin-top:32px;">
       <h2 class="sec-title">Hudební život během studia</h2>
-      <p style="margin:0; font-size:15px; line-height:1.8; color:#3a342c;">Studenti mohou během svého studia na škole účinkovat v komorních tělesech, symfonickém orchestru a big bandu.<br>Škola umožňuje zapůjčení hudebních nástrojů.</p>
+      <p style="margin:0; font-size:17px; line-height:1.8; color:#3a342c;">Studenti mohou během svého studia na škole účinkovat v komorních tělesech, symfonickém orchestru a big bandu.<br>Škola umožňuje zapůjčení hudebních nástrojů.</p>
     </div>
 
     <div style="border-top:1px solid #e6ddd0; padding-top:28px; margin-top:32px;">
       <h2 class="sec-title">Materiální podmínky</h2>
-      <p style="margin:0; font-size:15px; line-height:1.8; color:#3a342c;">Veškerá (všeobecně vzdělávací i speciální hudební) výuka probíhá v budově školy na Komenského náměstí 400/9 v Praze 3, kde je kromě učeben všeobecné a individuální hudební výuky také koncertní sál, komorní sál, plavecký bazén a školní jídelna. V celém objektu je zajištěn bezbariérový přístup.</p>
+      <p style="margin:0; font-size:17px; line-height:1.8; color:#3a342c;">Veškerá (všeobecně vzdělávací i speciální hudební) výuka probíhá v budově školy na Komenského náměstí 400/9 v Praze 3, kde je kromě učeben všeobecné a individuální hudební výuky také koncertní sál, komorní sál, plavecký bazén a školní jídelna. V celém objektu je zajištěn bezbariérový přístup.</p>
     </div>
 
     <div style="border-top:1px solid #e6ddd0; padding-top:28px; margin-top:32px;">
       <h2 class="sec-title">Pedagogové</h2>
-      <p style="margin:0; font-size:15px; line-height:1.8; color:#3a342c;">Hudebně teoretické předměty vyučují převážně pedagogové Hudební a taneční fakulty AMU. V oborech individuální hudební výuky vyučují nejzkušenější učitelé Gymnázia a Hudební školy hl. m. Prahy, ZUŠ, hudebních fakult AMU, JAMU, konzervatoří, sólisté a instrumentalisté předních pražských orchestrů.</p>
+      <p style="margin:0; font-size:17px; line-height:1.8; color:#3a342c;">Hudebně teoretické předměty vyučují převážně pedagogové Hudební a taneční fakulty AMU. V oborech individuální hudební výuky vyučují nejzkušenější učitelé Gymnázia a Hudební školy hl. m. Prahy, ZUŠ, hudebních fakult AMU, JAMU, konzervatoří, sólisté a instrumentalisté předních pražských orchestrů.</p>
     </div>
   </div>""",
     "Osmileté gymnázium s hudebním zaměřením — jak funguje studium.",
@@ -110,7 +110,7 @@ page(
         <div class="term-row"><span>Den otevřených dveří</span><span>26. 11. 2026</span></div>
         <div class="term-row"><span>Den otevřených dveří</span><span>21. 1. 2027</span></div>
       </div>
-      <p style="margin:14px 0 0; font-size:15px; color:#5c5347;">Vždy <strong>od 15.30 hod.</strong></p>
+      <p style="margin:14px 0 0; font-size:17px; color:#5c5347;">Vždy <strong>od 15.30 hod.</strong></p>
     </div>
 
     <div style="border-top:1px solid #e6ddd0; padding-top:32px; margin-top:40px; max-width:900px;">
@@ -118,11 +118,11 @@ page(
       <div class="row-box">
         <div style="display:flex; gap:20px; align-items:baseline; padding:14px 0; border-bottom:1px solid var(--border-row);">
           <div class="display" style="font-size:18px; font-weight:600; color:var(--accent); min-width:88px; flex-shrink:0;">15.30 hod.</div>
-          <div style="font-size:15px; line-height:1.7; color:#3a342c;">Přijďte do foyer školy a nahlédněte spolu s našimi studenty-průvodci přímo do výuky.</div>
+          <div style="font-size:17px; line-height:1.7; color:#3a342c;">Přijďte do foyer školy a nahlédněte spolu s našimi studenty-průvodci přímo do výuky.</div>
         </div>
         <div style="display:flex; gap:20px; align-items:baseline; padding:14px 0;">
           <div class="display" style="font-size:18px; font-weight:600; color:var(--accent); min-width:88px; flex-shrink:0;">17.00 hod.</div>
-          <div style="font-size:15px; line-height:1.7; color:#3a342c;">Setkejte se s vedením školy v koncertním sále školy.</div>
+          <div style="font-size:17px; line-height:1.7; color:#3a342c;">Setkejte se s vedením školy v koncertním sále školy.</div>
         </div>
       </div>
       <p class="display" style="margin:14px 0 0; font-size:22px; font-weight:600; color:var(--accent);">Rádi Vás uvidíme!</p>
@@ -177,17 +177,17 @@ page(
 
     <div class="grid-2" style="margin-top:44px;">
       <div class="card">
-        <div class="display" style="font-size:14px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:var(--accent);">Více informací získáte na naší škole</div>
+        <div class="display" style="font-size:16px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:var(--accent);">Více informací získáte na naší škole</div>
         <div style="font-size:17px; font-weight:600; margin-top:8px;">Mgr. Barbora Svobodová</div>
-        <div style="font-size:14.5px; color:#4a4139; line-height:1.9; margin-top:4px;">
+        <div style="font-size:16.5px; color:#4a4139; line-height:1.9; margin-top:4px;">
           tel. 221 434 711, 221 434 728 (přímá linka)<br>
           <a href="mailto:BaSv@gmhs.cz">BaSv@gmhs.cz</a>
         </div>
       </div>
       <div class="card">
-        <div class="display" style="font-size:14px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:var(--accent);">Zkouškové centrum AKCENT</div>
+        <div class="display" style="font-size:16px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:var(--accent);">Zkouškové centrum AKCENT</div>
         <div style="font-size:17px; font-weight:600; margin-top:8px;"><a href="https://www.cambridgeexams.cz" target="_blank" rel="noopener">www.cambridgeexams.cz</a></div>
-        <div style="font-size:14.5px; color:#4a4139; line-height:1.9; margin-top:4px;">
+        <div style="font-size:16.5px; color:#4a4139; line-height:1.9; margin-top:4px;">
           tel. 261 261 638, 261 109 224<br>
           <a href="mailto:exams@akcent.cz">exams@akcent.cz</a>
         </div>
@@ -208,8 +208,8 @@ page(
     <div class="grid-2" style="margin-bottom:36px;">
       <div class="card">
         <div class="display" style="font-size:17px; font-weight:600;">Lukáš Pertl</div>
-        <div style="font-size:12px; color:var(--accent); text-transform:uppercase; letter-spacing:0.04em;">Předseda školské rady</div>
-        <div style="font-size:14px; color:#4a4139; margin-top:6px;"><a href="mailto:lukas.pertl@seznam.cz">lukas.pertl@seznam.cz</a></div>
+        <div style="font-size:14px; color:var(--accent); text-transform:uppercase; letter-spacing:0.04em;">Předseda školské rady</div>
+        <div style="font-size:16px; color:#4a4139; margin-top:6px;"><a href="mailto:lukas.pertl@seznam.cz">lukas.pertl@seznam.cz</a></div>
       </div>
       <div class="card">
         <div class="display" style="font-size:17px; font-weight:600;">Alice Tašková</div>
@@ -269,7 +269,7 @@ page(
       <li><strong>Komorní a souborová hra, resp. Orchestr</strong> (žáci instrumentálních oborů s výjimkou oboru Hra na klavír) — povinné pro 7. ročník I. stupně a všechny ročníky II. stupně, nepovinně po dohodě s vyučujícím v jakémkoli ročníku</li>
       <li><strong>Klavírní seminář</strong> — povinné pro 7. ročník I. stupně a všechny ročníky II. stupně oboru Hra na klavír, nepovinně po dohodě s vyučujícím v jakémkoli ročníku</li>
     </ul>
-    <p style="margin:16px 0 0; font-size:15px; line-height:1.7; color:#3a342c;">Jako alternativu k výše uvedeným předmětům je možné zvolit:</p>
+    <p style="margin:16px 0 0; font-size:17px; line-height:1.7; color:#3a342c;">Jako alternativu k výše uvedeným předmětům je možné zvolit:</p>
     <ul class="plain-list">
       <li><strong>Hudební seminář</strong> — povinné pro 6., 7. ročník I. stupně a všechny ročníky II. stupně, pokud nenavštěvují předmět Komorní zpěv, Komorní a souborová hra či Klavírní seminář, nepovinně po dohodě s vyučujícím v 6., 7. ročníku I. stupně a všech ročnících II. stupně</li>
     </ul>
@@ -277,8 +277,8 @@ page(
 
   <div id="pripravne" style="border-top:1px solid #e6ddd0; padding-top:32px; margin-top:32px;">
     <h2 class="sec-title">1. Přípravné studium (PHV)</h2>
-    <p style="margin:14px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Je určeno pro žáky od 5 let věku (v případě mimořádného talentu i žáky mladší). Jedná se o dvouleté studium. Předškolní děti absolvují oba ročníky, děti navštěvující 1. třídu ZŠ absolvují pouze jeden ročník (pouze PHV2).</p>
-    <p style="margin:14px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Každý ročník tvoří 2 vyučovací hodiny. Ty mohou být realizovány ve dvou variantách:</p>
+    <p style="margin:14px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Je určeno pro žáky od 5 let věku (v případě mimořádného talentu i žáky mladší). Jedná se o dvouleté studium. Předškolní děti absolvují oba ročníky, děti navštěvující 1. třídu ZŠ absolvují pouze jeden ročník (pouze PHV2).</p>
+    <p style="margin:14px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Každý ročník tvoří 2 vyučovací hodiny. Ty mohou být realizovány ve dvou variantách:</p>
     <ol class="plain-list">
       <li>1 hodina individuální výuky hry na nástroj a 1 hodina kolektivní výuky PHV (Přípravná hudební výchova — PHV1* a PHV2).</li>
       <li>1 hodina kolektivní výuky PHV, a v případě, že žák ještě nehraje na žádný nástroj, navštěvuje ve 2. hodině:
@@ -288,36 +288,36 @@ page(
         </ul>
       </li>
     </ol>
-    <p style="margin:14px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Po absolvování přípravného studia žák automaticky postupuje do Základního studia I. stupně.</p>
-    <p style="margin:10px 0 0; font-size:13px; color:#7a6f60;">* výuka tohoto předmětu probíhá dopoledne!</p>
+    <p style="margin:14px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Po absolvování přípravného studia žák automaticky postupuje do Základního studia I. stupně.</p>
+    <p style="margin:10px 0 0; font-size:15px; color:#7a6f60;">* výuka tohoto předmětu probíhá dopoledne!</p>
 
-    <h3 style="font-size:15px; font-weight:600; color:var(--accent); margin:32px 0 0; text-transform:uppercase; letter-spacing:0.04em;">Přípravné studium — individuální výuka hry na nástroj</h3>
-    <p style="margin:10px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">V rámci individuální výuky hry na nástroj jsou děti pod vedením zkušeného pedagoga aktivně seznamovány se základy hry na zvolený hudební nástroj, jsou u nich rozvíjeny jejich hudební schopnosti, dovednosti a návyky, jejich hudební cítění a zájem o hudbu. Do tohoto programu jsou žáci přijímáni na základě hudebních předpokladů (rytmické a melodické cítění, intonační a hudební představivost) rozhodnutím zkušební komise.</p>
+    <h3 style="font-size:17px; font-weight:600; color:var(--accent); margin:32px 0 0; text-transform:uppercase; letter-spacing:0.04em;">Přípravné studium — individuální výuka hry na nástroj</h3>
+    <p style="margin:10px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">V rámci individuální výuky hry na nástroj jsou děti pod vedením zkušeného pedagoga aktivně seznamovány se základy hry na zvolený hudební nástroj, jsou u nich rozvíjeny jejich hudební schopnosti, dovednosti a návyky, jejich hudební cítění a zájem o hudbu. Do tohoto programu jsou žáci přijímáni na základě hudebních předpokladů (rytmické a melodické cítění, intonační a hudební představivost) rozhodnutím zkušební komise.</p>
 
-    <h3 style="font-size:15px; font-weight:600; color:var(--accent); margin:24px 0 0; text-transform:uppercase; letter-spacing:0.04em;">Přípravná hudební výchova (PHV1, PHV2)</h3>
-    <p style="margin:10px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Rozvíjí u dětí prostřednictvím elementárních pěveckých, instrumentálních, pohybových a poslechových činností jejich zájem o hudbu, jejich hudební schopnosti, dovednosti a návyky. Hravou formou aktivizuje a podněcuje u dětí tvořivost, představivost, vnímání a fantazii. Děti se také učí porozumět elementárním hudebním pojmům. Cílem PHV je komplexně rozvíjet hudebnost dětí a poskytovat teoretické i praktické zázemí (servis) pro co nejsnazší zvládnutí studia hry na nástroj či zpěvu. Obsah výuky je v každém ročníku přizpůsoben věku a schopnostem dětí. V rámci PHV2 jsou již zařazovány aktivity spojené se zvládnutím elementárního notového zápisu.</p>
+    <h3 style="font-size:17px; font-weight:600; color:var(--accent); margin:24px 0 0; text-transform:uppercase; letter-spacing:0.04em;">Přípravná hudební výchova (PHV1, PHV2)</h3>
+    <p style="margin:10px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Rozvíjí u dětí prostřednictvím elementárních pěveckých, instrumentálních, pohybových a poslechových činností jejich zájem o hudbu, jejich hudební schopnosti, dovednosti a návyky. Hravou formou aktivizuje a podněcuje u dětí tvořivost, představivost, vnímání a fantazii. Děti se také učí porozumět elementárním hudebním pojmům. Cílem PHV je komplexně rozvíjet hudebnost dětí a poskytovat teoretické i praktické zázemí (servis) pro co nejsnazší zvládnutí studia hry na nástroj či zpěvu. Obsah výuky je v každém ročníku přizpůsoben věku a schopnostem dětí. V rámci PHV2 jsou již zařazovány aktivity spojené se zvládnutím elementárního notového zápisu.</p>
 
-    <h3 style="font-size:15px; font-weight:600; color:var(--accent); margin:24px 0 0; text-transform:uppercase; letter-spacing:0.04em;">Hudebně pohybová výchova</h3>
-    <p style="margin:10px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Pohyb je důležitou součástí hudebního vzdělávání. Hudebně pohybová výchova rozvíjí u dětí pohybově estetické i hudební cítění. Prostřednictvím elementárních cvičení (děti se např. učí vyjádřit pohybem rytmické i dynamické rozdíly), tělesné koordinace (např. schopnost reagovat na tempové změny pohybem) a pohybové orientace v prostoru je rozvíjeno jejich rytmické, dynamické i hudební vnímání, představivost i kreativita.</p>
+    <h3 style="font-size:17px; font-weight:600; color:var(--accent); margin:24px 0 0; text-transform:uppercase; letter-spacing:0.04em;">Hudebně pohybová výchova</h3>
+    <p style="margin:10px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Pohyb je důležitou součástí hudebního vzdělávání. Hudebně pohybová výchova rozvíjí u dětí pohybově estetické i hudební cítění. Prostřednictvím elementárních cvičení (děti se např. učí vyjádřit pohybem rytmické i dynamické rozdíly), tělesné koordinace (např. schopnost reagovat na tempové změny pohybem) a pohybové orientace v prostoru je rozvíjeno jejich rytmické, dynamické i hudební vnímání, představivost i kreativita.</p>
   </div>
 
   <div id="zakladni1" style="border-top:1px solid #e6ddd0; padding-top:32px; margin-top:32px;">
     <h2 class="sec-title">2. Základní studium I. stupně</h2>
-    <p style="margin:14px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Má 7 ročníků a je určeno pro žáky od 7 let věku.</p>
-    <p style="margin:14px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Výuka je realizována prostřednictvím studijních zaměření-předmětů: Hra na housle, Hra na violu, Hra na violoncello, Hra na kontrabas, Hra na kytaru, Hra na harfu, Hra na klavír, Hra na varhany, Hra na cembalo, Hra na hoboj, Hra na zobcovou flétnu, Hra na příčnou flétnu, Hra na klarinet, Hra na fagot, Hra na saxofon, Hra na lesní roh, Hra na trubku, Hra na trombon, Hra na tenor – baryton, Hra na tubu, Hra na bicí nástroje, Sólový zpěv, Komorní zpěv, Sborový zpěv.</p>
-    <p style="margin:14px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Povinnou součástí studia v 1.–5. ročníku je předmět Hudební nauka.</p>
+    <p style="margin:14px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Má 7 ročníků a je určeno pro žáky od 7 let věku.</p>
+    <p style="margin:14px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Výuka je realizována prostřednictvím studijních zaměření-předmětů: Hra na housle, Hra na violu, Hra na violoncello, Hra na kontrabas, Hra na kytaru, Hra na harfu, Hra na klavír, Hra na varhany, Hra na cembalo, Hra na hoboj, Hra na zobcovou flétnu, Hra na příčnou flétnu, Hra na klarinet, Hra na fagot, Hra na saxofon, Hra na lesní roh, Hra na trubku, Hra na trombon, Hra na tenor – baryton, Hra na tubu, Hra na bicí nástroje, Sólový zpěv, Komorní zpěv, Sborový zpěv.</p>
+    <p style="margin:14px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Povinnou součástí studia v 1.–5. ročníku je předmět Hudební nauka.</p>
   </div>
 
   <div id="zakladni2" style="border-top:1px solid #e6ddd0; padding-top:32px; margin-top:32px;">
     <h2 class="sec-title">3. Základní studium II. stupně</h2>
-    <p style="margin:14px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Má 4 ročníky a je určeno pro žáky od 14 let věku.</p>
-    <p style="margin:14px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Výuka je realizována prostřednictvím studijních zaměření-předmětů: Hra na housle, Hra na violu, Hra na violoncello, Hra na kontrabas, Hra na kytaru, Hra na harfu, Hra na klavír, Hra na varhany, Hra na cembalo, Hra na hoboj, Hra na zobcovou flétnu, Hra na příčnou flétnu, Hra na klarinet, Hra na fagot, Hra na saxofon, Hra na lesní roh, Hra na trubku, Hra na trombon, Hra na tenor – baryton, Hra na tubu, Hra na bicí nástroje, Sólový zpěv, Komorní zpěv, Sborový zpěv.</p>
+    <p style="margin:14px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Má 4 ročníky a je určeno pro žáky od 14 let věku.</p>
+    <p style="margin:14px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Výuka je realizována prostřednictvím studijních zaměření-předmětů: Hra na housle, Hra na violu, Hra na violoncello, Hra na kontrabas, Hra na kytaru, Hra na harfu, Hra na klavír, Hra na varhany, Hra na cembalo, Hra na hoboj, Hra na zobcovou flétnu, Hra na příčnou flétnu, Hra na klarinet, Hra na fagot, Hra na saxofon, Hra na lesní roh, Hra na trubku, Hra na trombon, Hra na tenor – baryton, Hra na tubu, Hra na bicí nástroje, Sólový zpěv, Komorní zpěv, Sborový zpěv.</p>
   </div>
 
   <div id="dospeli" style="border-top:1px solid #e6ddd0; padding-top:32px; margin-top:32px;">
     <h2 class="sec-title">4. Studium pro dospělé</h2>
-    <p style="margin:14px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Má nejvýše 4 ročníky. Je určeno pro zletilé žáky (18 let) a realizováno v rozsahu minimálně dvou vyučovacích hodin týdně. Obsah studia určuje vyučující na základě schopností a interpretační zdatnosti žáka a je uváděn v jednotlivých třídních knihách pro daného žáka a daný školní rok. Větší rozsah vyučovacích hodin než dvě hodiny týdně pak podléhá schválení ředitele školy. V případě komorní hry či komorního zpěvu je obsah vyučovacích hodin určen pedagogem, rozsah pak na základě schválení ředitele školy.</p>
-    <p style="margin:14px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Výuka je realizována prostřednictvím studijních zaměření-předmětů: Hra na housle, Hra na violu, Hra na violoncello, Hra na kontrabas, Hra na kytaru, Hra na harfu, Hra na klavír, Hra na varhany, Hra na cembalo, Hra na hoboj, Hra na zobcovou flétnu, Hra na příčnou flétnu, Hra na klarinet, Hra na fagot, Hra na saxofon, Hra na lesní roh, Hra na trubku, Hra na trombon, Hra na tenor – baryton, Hra na tubu, Hra na bicí nástroje, Sólový zpěv, Komorní zpěv, Sborový zpěv.</p>
+    <p style="margin:14px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Má nejvýše 4 ročníky. Je určeno pro zletilé žáky (18 let) a realizováno v rozsahu minimálně dvou vyučovacích hodin týdně. Obsah studia určuje vyučující na základě schopností a interpretační zdatnosti žáka a je uváděn v jednotlivých třídních knihách pro daného žáka a daný školní rok. Větší rozsah vyučovacích hodin než dvě hodiny týdně pak podléhá schválení ředitele školy. V případě komorní hry či komorního zpěvu je obsah vyučovacích hodin určen pedagogem, rozsah pak na základě schválení ředitele školy.</p>
+    <p style="margin:14px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Výuka je realizována prostřednictvím studijních zaměření-předmětů: Hra na housle, Hra na violu, Hra na violoncello, Hra na kontrabas, Hra na kytaru, Hra na harfu, Hra na klavír, Hra na varhany, Hra na cembalo, Hra na hoboj, Hra na zobcovou flétnu, Hra na příčnou flétnu, Hra na klarinet, Hra na fagot, Hra na saxofon, Hra na lesní roh, Hra na trubku, Hra na trombon, Hra na tenor – baryton, Hra na tubu, Hra na bicí nástroje, Sólový zpěv, Komorní zpěv, Sborový zpěv.</p>
   </div>
 
   </div>""",
@@ -332,18 +332,18 @@ page(
     """  <div class="content" style="padding-top:24px;">
     <div>
       <h2 class="sec-title">K čemu je dobrá hudební nauka?</h2>
-      <p style="margin:12px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Hudební nauka je důležitou součástí hudebního vzdělávání. Pro 1.–5. ročník základního studia I. stupně je to předmět povinný a je klasifikován. Platí to tak na každé ZUŠ v ČR. Jedná se o pravidelnou výuku, která probíhá každý týden (viz rozvrh hodin výše). Cílem výuky je získání základních znalostí z oblasti hudební teorie, jejich propojení s praxí a rozšiřování hudebních dovedností.</p>
-      <p style="margin:14px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Hudební nauka tak vytváří určitý servis, přípravu, která má usnadnit výuku hlavního oboru tak, aby se žák i učitel mohli plně soustředit na zvládnutí technických a hudebních dovedností konkrétního nástroje či zpěvu.</p>
+      <p style="margin:12px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Hudební nauka je důležitou součástí hudebního vzdělávání. Pro 1.–5. ročník základního studia I. stupně je to předmět povinný a je klasifikován. Platí to tak na každé ZUŠ v ČR. Jedná se o pravidelnou výuku, která probíhá každý týden (viz rozvrh hodin výše). Cílem výuky je získání základních znalostí z oblasti hudební teorie, jejich propojení s praxí a rozšiřování hudebních dovedností.</p>
+      <p style="margin:14px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Hudební nauka tak vytváří určitý servis, přípravu, která má usnadnit výuku hlavního oboru tak, aby se žák i učitel mohli plně soustředit na zvládnutí technických a hudebních dovedností konkrétního nástroje či zpěvu.</p>
     </div>
 
     <div style="border-top:1px solid #e6ddd0; padding-top:28px; margin-top:32px;">
       <h2 class="sec-title">Kdy a jak dítě do hudební nauky zapsat?</h2>
-      <p style="margin:12px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Na začátku každého školního roku je třeba vybrat si z rozvrhu pro daný školní rok den a hodinu, která bude dítěti nejlépe vyhovovat. Samozřejmě je třeba vybrat správný ročník. Zápisy do jednotlivých ročníků probíhají v první polovině září. Je možné využít elektronický rezervační systém nebo přijít osobně.</p>
+      <p style="margin:12px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Na začátku každého školního roku je třeba vybrat si z rozvrhu pro daný školní rok den a hodinu, která bude dítěti nejlépe vyhovovat. Samozřejmě je třeba vybrat správný ročník. Zápisy do jednotlivých ročníků probíhají v první polovině září. Je možné využít elektronický rezervační systém nebo přijít osobně.</p>
     </div>
 
     <div style="border-top:1px solid #e6ddd0; padding-top:28px; margin-top:32px;">
       <h2 class="sec-title">Jaké pomůcky nosit do hodin hudební nauky?</h2>
-      <p style="margin:12px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Notový sešit, pracovní sešit (dostane na začátku školního roku od školy), psací potřeby (hodí se také základní barevné pastelky).</p>
+      <p style="margin:12px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Notový sešit, pracovní sešit (dostane na začátku školního roku od školy), psací potřeby (hodí se také základní barevné pastelky).</p>
     </div>
   </div>""",
     "Hudební nauka a přípravná hudební výchova na ZUŠ GMHS.",
@@ -363,17 +363,17 @@ page(
         <li>do <strong>Přípravné hudební výchovy</strong> (hudba zábavnou a hravou formou) — žáky ve věku 5–6 let (v případě mimořádného talentu i žáky mladší)</li>
         <li><strong>ke hře na nástroj</strong> — žáky ve věku od 6–7 let a starší</li>
       </ul>
-      <p style="margin:16px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Pedagogové školy vždy posoudí hudební talent dítěte / žáka / studenta / Váš (chcete-li se sami učit hrát nebo zpívat) a v kladném případě doporučí řediteli školy přijetí.</p>
+      <p style="margin:16px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Pedagogové školy vždy posoudí hudební talent dítěte / žáka / studenta / Váš (chcete-li se sami učit hrát nebo zpívat) a v kladném případě doporučí řediteli školy přijetí.</p>
     </div>
 
     <div style="border-top:1px solid #e6ddd0; padding-top:28px; margin-top:28px;">
       <h2 class="sec-title">Individuálně vyučované obory</h2>
       <div class="sub-title" style="margin-top:0;">Strunné nástroje</div>
-      <p style="margin:0; font-size:15px; line-height:1.8; color:#3a342c;">Housle, viola, violoncello, kontrabas, kytara, harfa</p>
+      <p style="margin:0; font-size:17px; line-height:1.8; color:#3a342c;">Housle, viola, violoncello, kontrabas, kytara, harfa</p>
       <div class="sub-title">Klávesové</div>
-      <p style="margin:0; font-size:15px; line-height:1.8; color:#3a342c;">Klavír, varhany, cembalo</p>
+      <p style="margin:0; font-size:17px; line-height:1.8; color:#3a342c;">Klavír, varhany, cembalo</p>
       <div class="sub-title">Dechové nástroje</div>
-      <p style="margin:0; font-size:15px; line-height:1.8; color:#3a342c;">Zobcová a příčná flétna, hoboj, klarinet, fagot, saxofon, lesní roh, trubka, trombon (tenor, baryton), tuba</p>
+      <p style="margin:0; font-size:17px; line-height:1.8; color:#3a342c;">Zobcová a příčná flétna, hoboj, klarinet, fagot, saxofon, lesní roh, trubka, trombon (tenor, baryton), tuba</p>
       <div class="sub-title">Bicí nástroje</div>
       <div class="sub-title" style="margin-top:8px;">Sólový zpěv</div>
     </div>
@@ -392,19 +392,19 @@ page(
 
     <div style="border-top:1px solid #e6ddd0; padding-top:28px; margin-top:28px;">
       <h2 class="sec-title">Platba úplaty za vzdělávání</h2>
-      <p style="margin:14px 0 0; font-size:15px; line-height:1.8; color:#3a342c;"><strong>Pouze bezhotovostně</strong> na účet školy 338 564 209 / 0300, ČSOB, a. s.<br>Konstantní symbol 0308<br>Variabilní symbol dle zařazení v aktuálním školním roce (zákonný zástupce obdrží v elektronické podobě e-mailem)</p>
+      <p style="margin:14px 0 0; font-size:17px; line-height:1.8; color:#3a342c;"><strong>Pouze bezhotovostně</strong> na účet školy 338 564 209 / 0300, ČSOB, a. s.<br>Konstantní symbol 0308<br>Variabilní symbol dle zařazení v aktuálním školním roce (zákonný zástupce obdrží v elektronické podobě e-mailem)</p>
 
       <div class="row-box" style="margin-top:24px;">
-        <div class="price-row"><span>I. stupeň základního studia (1.–7. ročník) / II. stupeň základního studia (1.–4. ročník)<br><span style="font-size:13px; color:#7a6f60;">včetně Studia pro dospělé u žáků studujících zároveň v denní formě vzdělávání ve SŠ, konzervatoři a VOŠ</span></span><span class="price">3 300 Kč / pololetí</span></div>
+        <div class="price-row"><span>I. stupeň základního studia (1.–7. ročník) / II. stupeň základního studia (1.–4. ročník)<br><span style="font-size:15px; color:#7a6f60;">včetně Studia pro dospělé u žáků studujících zároveň v denní formě vzdělávání ve SŠ, konzervatoři a VOŠ</span></span><span class="price">3 300 Kč / pololetí</span></div>
         <div class="price-row"><span>PHV individuální</span><span class="price">2 200 Kč / pololetí</span></div>
         <div class="price-row"><span>PHV skupinová</span><span class="price">1 100 Kč / pololetí</span></div>
         <div class="price-row"><span>Sborový zpěv — druhé nebo další studijní zaměření</span><span class="price">1 000 Kč / pololetí</span></div>
         <div class="price-row"><span>Sborový zpěv (s hudební naukou)</span><span class="price">1 500 Kč / pololetí</span></div>
-        <div class="price-row"><span>Hromadná výuka bez individuální výuky<br><span style="font-size:13px; color:#7a6f60;">platí se každý navštěvovaný předmět — hudební nauka, orchestr, komorní hra, sborový zpěv</span></span><span class="price">1 000 Kč / pololetí</span></div>
+        <div class="price-row"><span>Hromadná výuka bez individuální výuky<br><span style="font-size:15px; color:#7a6f60;">platí se každý navštěvovaný předmět — hudební nauka, orchestr, komorní hra, sborový zpěv</span></span><span class="price">1 000 Kč / pololetí</span></div>
         <div class="price-row"><span>Studium pro dospělé: pracující a studující VŠ</span><span class="price">10 000 Kč / pololetí</span></div>
       </div>
 
-      <p style="margin:20px 0 0; font-size:14px; line-height:1.7; color:#7a6f60;">Žáci, resp. zákonní zástupci žáků, mohou v odůvodněných případech zažádat o snížení úplaty za vzdělávání dle aktuálního znění vnitřní směrnice školy.</p>
+      <p style="margin:20px 0 0; font-size:16px; line-height:1.7; color:#7a6f60;">Žáci, resp. zákonní zástupci žáků, mohou v odůvodněných případech zažádat o snížení úplaty za vzdělávání dle aktuálního znění vnitřní směrnice školy.</p>
     </div>
   </div>""",
     "Přijímací zkoušky do ZUŠ a ceník úplaty za vzdělávání na Hudební škole GMHS.",
@@ -568,7 +568,7 @@ page(
       <p class="ens-text">BigBand veřejně vystoupuje na různých společenských akcích, plesech či festivalech. Několikrát samostatně vystupoval na maturitním plese GJN v pražské Lucerně. Zúčastnil se také mezinárodní Big bandové soutěže v České Kamenici, či festivalu JazzFest v Chebu. Orchestr hraje k tanci i k poslechu. Mladému publiku přibližuje jazzovou a populární hudbu na svých výchovných koncertech.</p>
       <p class="ens-text">V poslední době se pokouší rozvinout spolupráci s několika mladými, nadějnými zpěváky a je otevřen i nově příchozím hračům, instrumentalistům, kteří se zajímají nebo již hrají tento žánr. Dirigentem je prof. Michal Reiser a uměleckým vedoucím prof. Roman Fojtíček.</p>
       <p class="ens-text">Zkoušky BigBandu PLUS se konají v orchestrální zkušebně školy vždy ve čtvrtek 18.00–20.00 hod.</p>
-      <p style="margin:16px 0 0; font-size:14px; color:#6b6055;">Kontakt: M. Reiser — tel. <a href="tel:+420608178020">+420 608 178 020</a>, <a href="mailto:michalreiser@centrum.cz">michalreiser@centrum.cz</a></p>
+      <p style="margin:16px 0 0; font-size:16px; color:#6b6055;">Kontakt: M. Reiser — tel. <a href="tel:+420608178020">+420 608 178 020</a>, <a href="mailto:michalreiser@centrum.cz">michalreiser@centrum.cz</a></p>
       <img src="../images/orchestr-bigband.jpg" alt="BigBand Plus">
     </div>
   </div>
@@ -624,7 +624,7 @@ page(
     "Pořádané soutěže — Hudební život | GMHS",
     "Hudební život", "Pořádané soutěže", "",
     """  <div class="content wide">
-    <p style="margin:0 0 28px; font-size:15px; line-height:1.8; color:#3a342c;">Naše škola pořádá, nebo se podílí na organizaci řady soutěží:</p>
+    <p style="margin:0 0 28px; font-size:17px; line-height:1.8; color:#3a342c;">Naše škola pořádá, nebo se podílí na organizaci řady soutěží:</p>
     <div style="display:flex; flex-direction:column; align-items:flex-start; gap:16px;">
       <a class="btn btn-solid" href="https://www.adbeatum.cz/cz/" target="_blank" rel="noopener">Houslová soutěž PhDr. Josefa Micky</a>
       <a class="btn-pdf" href="https://www.gmhs.cz/_files/ugd/86e6ae_353a7f75ea0945aab0a984e72a642f34.pdf" target="_blank" rel="noopener">Hudební olympiáda (PDF)</a>
@@ -644,16 +644,16 @@ page(
     "Hudební život", "Projekty EU", "",
     """  <div class="content wide">
     <div style="max-width:900px;">
-      <div style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:var(--accent);">EUropean Music Project for Schools</div>
+      <div style="font-size:15px; letter-spacing:0.1em; text-transform:uppercase; color:var(--accent);">EUropean Music Project for Schools</div>
       <h2 class="sec-title" style="margin-top:8px;">Musical Spheres – Human Sound Traces</h2>
 
-      <p style="margin:20px 0 0; font-size:15px; line-height:1.85; color:#3a342c;">Počátek spolupráce mezi hudební částí lineckého Gymnázia Adalberta Stiftera, a Gymnáziem a Hudební školou hl. m. Prahy spadá do roku 2013 a za sebou má několik společných hudebních projektů. Partnerství obou škol vzniklo díky zprostředkování Mag. Jitky Kopřivové, vyučující zpěvu a hudební výchovy na Gymnáziu Adalberta Stiftera.</p>
+      <p style="margin:20px 0 0; font-size:17px; line-height:1.85; color:#3a342c;">Počátek spolupráce mezi hudební částí lineckého Gymnázia Adalberta Stiftera, a Gymnáziem a Hudební školou hl. m. Prahy spadá do roku 2013 a za sebou má několik společných hudebních projektů. Partnerství obou škol vzniklo díky zprostředkování Mag. Jitky Kopřivové, vyučující zpěvu a hudební výchovy na Gymnáziu Adalberta Stiftera.</p>
 
-      <p style="margin:16px 0 0; font-size:15px; line-height:1.85; color:#3a342c;">Hudební projekt se koná pod záštitou rakouského velvyslance v Praze Dr. Alexandera Grubmayra a českého velvyslance v Rakousku Ing. Jana Sechtera.</p>
+      <p style="margin:16px 0 0; font-size:17px; line-height:1.85; color:#3a342c;">Hudební projekt se koná pod záštitou rakouského velvyslance v Praze Dr. Alexandera Grubmayra a českého velvyslance v Rakousku Ing. Jana Sechtera.</p>
 
-      <p style="margin:16px 0 0; font-size:15px; line-height:1.85; color:#3a342c;">Od září 2016 probíhá tato kooperace v rámci evropského programu Erasmus+. V průběhu projektu s titulem „Tóny ze sousedství“ („Klänge der Nachbarschaft“) se uskuteční do srpna 2019 celkem šest společných koncertů na profesionální úrovni: čtyři komorní a dvě velká orchestrální a vokálně instrumentální vystoupení. Druhý projekt s názvem „Hudební sféry - lidské zvukové stopy" ("Musical Spheres – Human Sound Traces") má za cíl prohloubit spolupráci mezi oběma institucemi a zprostředkovat vzdělávací hodnotu evropského kulturního dědictví od hlavního proudu a uniformitu pseudosvětové kultury prostřednictvím praktického zkoumání středoevropské hudby od baroka po 21. století. Do roku 2021 jsou plánovány dva velké orchestrální projekty a dva koncerty komorního orchestru.</p>
+      <p style="margin:16px 0 0; font-size:17px; line-height:1.85; color:#3a342c;">Od září 2016 probíhá tato kooperace v rámci evropského programu Erasmus+. V průběhu projektu s titulem „Tóny ze sousedství“ („Klänge der Nachbarschaft“) se uskuteční do srpna 2019 celkem šest společných koncertů na profesionální úrovni: čtyři komorní a dvě velká orchestrální a vokálně instrumentální vystoupení. Druhý projekt s názvem „Hudební sféry - lidské zvukové stopy" ("Musical Spheres – Human Sound Traces") má za cíl prohloubit spolupráci mezi oběma institucemi a zprostředkovat vzdělávací hodnotu evropského kulturního dědictví od hlavního proudu a uniformitu pseudosvětové kultury prostřednictvím praktického zkoumání středoevropské hudby od baroka po 21. století. Do roku 2021 jsou plánovány dva velké orchestrální projekty a dva koncerty komorního orchestru.</p>
 
-      <p style="margin:16px 0 0; font-size:15px; line-height:1.85; color:#3a342c;">Jedná se o společný orchestrální projekt, jehož cílem je spojit nadané studenty z obou zemí.</p>
+      <p style="margin:16px 0 0; font-size:17px; line-height:1.85; color:#3a342c;">Jedná se o společný orchestrální projekt, jehož cílem je spojit nadané studenty z obou zemí.</p>
     </div>
 
     <div class="video-grid" style="margin-top:48px;">
@@ -702,19 +702,19 @@ page(
     """  <div class="content wide" style="padding-bottom:100px;">
     <div>
       <h2 class="sec-title">Koncerty</h2>
-      <p style="margin:12px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Pracovní záznamy z koncertů, nejsou určeny k dalšímu šíření. Slouží k ukázce dovednosti studentů a k záměru pedagogů při jejich vzdělávání.</p>
+      <p style="margin:12px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Pracovní záznamy z koncertů, nejsou určeny k dalšímu šíření. Slouží k ukázce dovednosti studentů a k záměru pedagogů při jejich vzdělávání.</p>
     </div>
     <div style="border-top:1px solid #e6ddd0; padding-top:32px; margin-top:32px;">
       <h2 class="sec-title">Soutěže</h2>
-      <p style="margin:12px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Škola pořádá dvě soutěže — Písňovou soutěž Bohuslava Martinů a Klavírní soutěž s názvem Mladí pianisté hrají na klavír Steinway&nbsp;&amp;&nbsp;Sons. Dále je spolupořadatelem soutěží: Violoncellová soutěž Jana Vychytila, Kytarová soutěž PRAGuitarra Clásica a Houslová soutěž PhDr. Josefa Micky.</p>
+      <p style="margin:12px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Škola pořádá dvě soutěže — Písňovou soutěž Bohuslava Martinů a Klavírní soutěž s názvem Mladí pianisté hrají na klavír Steinway&nbsp;&amp;&nbsp;Sons. Dále je spolupořadatelem soutěží: Violoncellová soutěž Jana Vychytila, Kytarová soutěž PRAGuitarra Clásica a Houslová soutěž PhDr. Josefa Micky.</p>
     </div>
     <div style="border-top:1px solid #e6ddd0; padding-top:32px; margin-top:32px;">
       <h2 class="sec-title">Dění v našem koncertním sále</h2>
-      <p style="margin:12px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Nahlédněte do koncertního sálu, kde studenti natáčí díla, která právě studují.</p>
+      <p style="margin:12px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Nahlédněte do koncertního sálu, kde studenti natáčí díla, která právě studují.</p>
     </div>
     <div style="border-top:1px solid #e6ddd0; padding-top:32px; margin-top:32px;">
       <h2 class="sec-title">Virtuální prohlídka</h2>
-      <p style="margin:12px 0 0; font-size:15px; line-height:1.8; color:#3a342c;">Projděte si budovu školy z pohodlí domova — interaktivní 3D prohlídka vás provede učebnami, atriem i koncertním sálem.</p>
+      <p style="margin:12px 0 0; font-size:17px; line-height:1.8; color:#3a342c;">Projděte si budovu školy z pohodlí domova — interaktivní 3D prohlídka vás provede učebnami, atriem i koncertním sálem.</p>
     </div>
   </div>""",
     "Fotografie a videa z koncertů, soutěží a koncertního sálu GMHS.",
@@ -749,7 +749,7 @@ page(
              '</div>',
     # Styly a skript jen pro tuto stránku; při jejich změně zvýšit číslo ?v=,
     # aby prohlížeče návštěvníků nepoužily starou verzi z mezipaměti.
-    extra_head='\n<link rel="stylesheet" href="kalendar.css?v=2">\n<script src="kalendar.js?v=2" defer></script>',
+    extra_head='\n<link rel="stylesheet" href="kalendar.css?v=3">\n<script src="kalendar.js?v=2" defer></script>',
 )
 
 # ================================================================ O NÁS ===
