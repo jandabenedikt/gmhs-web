@@ -113,4 +113,21 @@ AKTUALITY = [
             '      <p class="aktualita-text">Speciální díky Pavel Voráček za klavírní spolupráci celým programem 🌹</p>'
         ),
     },
+    {
+        "slug": "pisnova-soutez-bohuslava-martinu",
+        "category": ["gymnazium", "hudebni-skola"],
+        "date": "2026-10-13",
+        "title": "Písňová soutěž Bohuslava Martinů",
+        "excerpt": "24. ročník písňové soutěže B. Martinů je tady!",
+        "body_html": (
+            '<p class="aktualita-text">16. – 18. října proběhne na naší škole v prostorách již '
+            '24. ročník pěvecké soutěže.</p>\n'
+            '      <div class="aktualita-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">\n'
+            '        <iframe src="https://www.youtube.com/embed/nsrhBdMw7vI" title="YouTube video" '
+            'style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" '
+            'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '
+            'allowfullscreen loading="lazy"></iframe>\n'
+            '      </div>'
+        ),
+    },
 ]
