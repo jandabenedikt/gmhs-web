@@ -718,7 +718,9 @@ page(
     </div>
   </div>""",
     "Fotografie a videa z koncertů, soutěží a koncertního sálu GMHS.",
-    h1_extra='<div style="display:flex; flex-direction:column; align-items:flex-end; gap:12px;"><a class="btn btn-solid" href="https://eu.zonerama.com/gmhspraha/2067463" target="_blank" rel="noopener">Aktuální galerie na Zoneramě</a><a class="btn btn-solid" href="https://avuwalub.rajce.idnes.cz/" target="_blank" rel="noopener">Archivní galerie na Rajčenetu</a><a class="btn btn-solid" href="https://my.matterport.com/show/?m=T8ZYdYL8sNU" target="_blank" rel="noopener">Spustit virtuální prohlídku</a></div>',
+    h1_extra='<div class="gal-btns" style="display:flex; flex-direction:column; align-items:flex-end; gap:12px;"><a class="btn btn-solid" href="https://eu.zonerama.com/gmhspraha/2067463" target="_blank" rel="noopener">Aktuální galerie na Zoneramě</a><a class="btn btn-solid" href="https://avuwalub.rajce.idnes.cz/" target="_blank" rel="noopener">Archivní galerie na Rajčenetu</a><a class="btn btn-solid" href="https://my.matterport.com/show/?m=T8ZYdYL8sNU" target="_blank" rel="noopener">Spustit virtuální prohlídku</a></div>',
+    # Styl jen pro tuto stránku: třetí tlačítko visí pod prvními dvěma (nadpis zůstává na místě).
+    extra_head='\n<style>\n@media (min-width: 1025px) {\n  .gal-btns { position: relative; margin-bottom: -62px; }\n}\n</style>',
 )
 
 # ========================================================= KALENDÁŘ AKCÍ ===
