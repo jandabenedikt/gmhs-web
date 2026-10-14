@@ -698,7 +698,7 @@ page(
     "galerie.html",
     "Galerie | GMHS",
     "Galerie", "Galerie",
-    "Na odkaze níže najdete foto a video dokumentaci. Galerii spravuje a většinu záznamů pořizuje Blanka Blahová. A co všechno v galerii najdete? Čtěte níže:",
+    "Na odkazech níže najdete foto a video dokumentaci: aktuální záznamy v galerii na Zoneramě, starší v archivní galerii na Rajčenetu. Galerii spravuje a většinu záznamů pořizuje Blanka Blahová. A co všechno v galerii najdete? Čtěte níže:",
     """  <div class="content wide" style="padding-bottom:100px;">
     <div>
       <h2 class="sec-title">Koncerty</h2>
@@ -718,7 +718,7 @@ page(
     </div>
   </div>""",
     "Fotografie a videa z koncertů, soutěží a koncertního sálu GMHS.",
-    h1_extra='<div style="display:flex; flex-direction:column; align-items:flex-end; gap:12px;"><a class="btn btn-solid" href="https://avuwalub.rajce.idnes.cz/" target="_blank" rel="noopener">Pro prohlížení klikněte zde</a><a class="btn btn-solid" href="https://my.matterport.com/show/?m=T8ZYdYL8sNU" target="_blank" rel="noopener">Spustit virtuální prohlídku</a></div>',
+    h1_extra='<div style="display:flex; flex-direction:column; align-items:flex-end; gap:12px;"><a class="btn btn-solid" href="https://eu.zonerama.com/gmhspraha/2067463" target="_blank" rel="noopener">Aktuální galerie na Zoneramě</a><a class="btn btn-solid" href="https://avuwalub.rajce.idnes.cz/" target="_blank" rel="noopener">Archivní galerie na Rajčenetu</a><a class="btn btn-solid" href="https://my.matterport.com/show/?m=T8ZYdYL8sNU" target="_blank" rel="noopener">Spustit virtuální prohlídku</a></div>',
 )
 
 # ========================================================= KALENDÁŘ AKCÍ ===
