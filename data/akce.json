@@ -910,20 +910,20 @@
    "url": ""
   },
   {
-   "title": "Koncert smyčcového oddělení",
+   "title": "PŘEDKONKURZ SMYČCOVÉHO ODDĚLENÍ NA KONKURZ 16.2.",
    "allDay": false,
-   "start": "2027-02-08T18:00",
-   "end": "2027-02-08T20:00",
+   "start": "2027-02-08T16:30",
+   "end": "2027-02-08T22:30",
    "location": "Koncertní sál školy",
    "description": "",
    "url": ""
   },
   {
-   "title": "Koncert dechového oddělení",
+   "title": "PŘEDKONKURZ PĚVECKÉHO ODDĚLENÍ NA KONKURZ 16.2.",
    "allDay": false,
-   "start": "2027-02-09T18:00",
-   "end": "2027-02-09T20:00",
-   "location": "Komorní sál školy",
+   "start": "2027-02-09T17:00",
+   "end": "2027-02-09T18:00",
+   "location": "Koncertní sál školy",
    "description": "",
    "url": ""
   },
@@ -933,6 +933,15 @@
    "start": "2027-02-09T18:00",
    "end": "2027-02-09T20:00",
    "location": "Koncertní sál školy",
+   "description": "",
+   "url": ""
+  },
+  {
+   "title": "PŘEDKONKURZ DECHOVÉHO ODDĚLENÍ NA KONKURZ 16.2.",
+   "allDay": false,
+   "start": "2027-02-09T18:00",
+   "end": "2027-02-09T23:00",
+   "location": "Komorní sál školy",
    "description": "",
    "url": ""
   },
