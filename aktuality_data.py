@@ -157,17 +157,6 @@ AKTUALITY = [
         "image": "aktualita-janzurova-koncert.jpg",
     },
     {
-        "slug": "reditelske-volno",
-        "category": ["gymnazium", "hudebni-skola"],
-        "date": "2026-10-26",
-        "title": "Ředitelské volno",
-        "excerpt": "Ředitel školy vyhlašuje na 16. listopadu 2026 ředitelské volno z organizačních důvodů.",
-        "body_html": (
-            '<p class="aktualita-text">Ředitel školy oznamuje vyhlášení ředitelského volna '
-            '16. listopadu 2026 podle § 24 odst. 2 školského zákona z organizačních důvodů.</p>'
-        ),
-    },
-    {
         "slug": "konkurz-fok",
         "category": ["gymnazium"],
         "date": "2026-10-26",
