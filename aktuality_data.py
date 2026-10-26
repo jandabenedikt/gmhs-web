@@ -25,6 +25,11 @@ Pole u každého příspěvku:
               odstavců s třídou "aktualita-text")
   fb_url    - (volitelné) odkaz na původní příspěvek na Facebooku; pokud je
               vyplněn, pod textem se zobrazí tlačítko „Zobrazit na Facebooku“
+  image     - (volitelné) jméno souboru obrázku uloženého ve složce images/
+              (např. "aktualita-priklad.jpg"); pokud je vyplněno, zobrazí se
+              pod textem (a případným videem) jako responzivní obrázek
+  image_alt - (volitelné) alternativní text k obrázku; není-li uveden,
+              použije se jako výchozí hodnota title příspěvku
 """
 
 AKTUALITY = [
@@ -129,5 +134,65 @@ AKTUALITY = [
             'allowfullscreen loading="lazy"></iframe>\n'
             '      </div>'
         ),
+    },
+    {
+        "slug": "koncert-100-let-janzurova",
+        "category": ["gymnazium"],
+        "date": "2026-10-26",
+        "title": "Koncert k nedožitým 100. narozeninám prof. Zdeny Janžurové",
+        "excerpt": "Videopozvánka na hudební večer k poctě Zdeny Janžurové a jejímu celoživotnímu úsilí předávat radost z hudby dalším generacím.",
+        "body_html": (
+            '<p class="aktualita-text">Zdena Janžurová byla klavírní pedagožka a autorka odborných '
+            'a výukových publikací. Společně s Miladou Borovou vytvořila známé české učebnice pro děti, '
+            'například Klavírní školičku a čtyřdílnou Novou klavírní školu (včetně dílu Nová klavírní '
+            'škola 1), které slouží k výuce začínajících klavíristů. Její profily a tvorbu můžete najít '
+            'na Databázi knih, nebo v katalogu na Městská knihovna v Praze.</p>\n'
+            '      <div class="aktualita-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">\n'
+            '        <iframe src="https://www.youtube.com/embed/eY_jKYFtlEw" title="YouTube video" '
+            'style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" '
+            'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '
+            'allowfullscreen loading="lazy"></iframe>\n'
+            '      </div>'
+        ),
+        "image": "aktualita-janzurova-koncert.jpg",
+    },
+    {
+        "slug": "reditelske-volno",
+        "category": ["gymnazium", "hudebni-skola"],
+        "date": "2026-10-26",
+        "title": "Ředitelské volno",
+        "excerpt": "Ředitel školy vyhlašuje na 16. listopadu 2026 ředitelské volno z organizačních důvodů.",
+        "body_html": (
+            '<p class="aktualita-text">Ředitel školy oznamuje vyhlášení ředitelského volna '
+            '16. listopadu 2026 podle § 24 odst. 2 školského zákona z organizačních důvodů.</p>'
+        ),
+    },
+    {
+        "slug": "konkurz-fok",
+        "category": ["gymnazium"],
+        "date": "2026-10-26",
+        "title": "Konkurz na sólistu se Symfonickým orchestrem Hlavního města Prahy, FOK",
+        "excerpt": "Veřejný konkurz na sólistu slavnostního koncertu s orchestrem FOK — přihlášky do 8. ledna 2027.",
+        "body_html": (
+            '<p class="aktualita-text">Veřejný konkurz na sólistu slavnostního koncertu se Symfonickým '
+            'orchestrem hl. m. Prahy FOK se uskuteční v úterý 16. února 2027 v Koncertním sále školy. '
+            'Samotný slavnostní koncert se bude konat 29. dubna 2027 ve Smetanově síni Obecního domu. '
+            'Podmínky konkurzu jsou uvedeny na stránkách GMHS.</p>'
+        ),
+        "image": "aktualita-konkurz-fok.jpg",
+    },
+    {
+        "slug": "den-otevrenych-dveri",
+        "category": ["gymnazium"],
+        "date": "2026-10-26",
+        "title": "Den otevřených dveří",
+        "excerpt": "Zveme zájemce o studium na Den otevřených dveří 26. 11. 2026 a 21. 1. 2027 — prohlídka školy i výuky.",
+        "body_html": (
+            '<p class="aktualita-text">26. listopadu 2026 se koná první den otevřených dveří, '
+            'druhý termín je pak 21. ledna 2027. Zveme všechny zájemce o studium na GMHS k prohlídce '
+            'nejen budovy, ale i k návštěvě vyučování. Prohlídka školy za doprovodu studentů probíhá '
+            'od 15:30 do 18:00, s vedením školy pak od 17:00 do 18:00 v Koncertním sále.</p>'
+        ),
+        "image": "aktualita-den-otevrenych-dveri.jpg",
     },
 ]

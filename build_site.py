@@ -196,6 +196,18 @@ def aktualita_fb_button_html(post):
       </div>"""
 
 
+def aktualita_image_html(post):
+    """Obrázek pod textem příspěvku (volitelné pole image - jméno souboru v images/)."""
+    filename = post.get("image")
+    if not filename:
+        return ""
+    alt = post.get("image_alt", post["title"])
+    return (
+        f'\n      <img class="aktualita-image" src="../images/{filename}" alt="{alt}" '
+        'style="display:block;max-width:100%;height:auto;border-radius:2px;margin-top:18px;" loading="lazy">'
+    )
+
+
 def aktuality_section_html(post, index=0):
     label = aktualita_label(post["category"])
     bg_class = aktualita_bg_class(index)
@@ -205,7 +217,7 @@ def aktuality_section_html(post, index=0):
       <div class="aktualita-tag">{label}</div>
       <h2 class="aktualita-title display">{post['title']}</h2>
       <div class="aktualita-date">{date_display}</div>
-      {post['body_html']}{aktualita_fb_button_html(post)}
+      {post['body_html']}{aktualita_image_html(post)}{aktualita_fb_button_html(post)}
     </div>
   </div>"""
 
