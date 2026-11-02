@@ -184,4 +184,98 @@ AKTUALITY = [
         ),
         "image": "aktualita-den-otevrenych-dveri.jpg",
     },
+    {
+        "slug": "ohlednuti-zari-rijen-2026",
+        "category": ["gymnazium"],
+        "date": "2026-11-02",
+        "title": "Ohlédnutí za začátkem školního roku 2026 / 2027",
+        "excerpt": "Krátká shrnující videa prezentující nejvýraznější události ze života školy za září a říjen.",
+        "body_html": (
+            '<p class="aktualita-text">U nás to žije od prvního dne školy! Pojďte se podívat na výběr '
+            'nejvýraznějších momentů a akcí za září a říjen!</p>\n'
+            '      <p class="aktualita-text" style="font-weight:600;margin-top:18px;margin-bottom:8px;">'
+            'Ohlédnutí za uplynulým měsícem září</p>\n'
+            '      <div class="aktualita-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">\n'
+            '        <iframe src="https://www.youtube.com/embed/vk9cINKyLYw" title="Ohlédnutí za uplynulým měsícem září" '
+            'style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" '
+            'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '
+            'allowfullscreen loading="lazy"></iframe>\n'
+            '      </div>\n'
+            '      <p class="aktualita-text" style="font-weight:600;margin-top:18px;margin-bottom:8px;">'
+            'Ohlédnutí za uplynulým měsícem na GMHS říjen 2026</p>\n'
+            '      <div class="aktualita-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">\n'
+            '        <iframe src="https://www.youtube.com/embed/lC1PZSBzfdc" title="Ohlédnutí za uplynulým měsícem na GMHS říjen 2026" '
+            'style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" '
+            'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '
+            'allowfullscreen loading="lazy"></iframe>\n'
+            '      </div>'
+        ),
+    },
+    {
+        "slug": "30-let-spolu",
+        "category": ["gymnazium", "hudebni-skola"],
+        "date": "2026-11-02",
+        "title": "30 let spolu!",
+        "excerpt": "Koncert k 30 letům Hudební školy a Gymnázia hlavního města Prahy na Komenského náměstí. Symfonický orchestr GMHS se sólistou Tomášem Jamníkem zahrají v kostele sv. Šimona a Judy",
+        "body_html": (
+            '<p class="aktualita-text">GMHS slaví jubileum! A to stylově koncertem svého Symfonického '
+            'orchestru Gymnázia a Hudební školy hlavního města Prahy se sólistou Tomášem Jamníkem. '
+            'Pátek 13. listopadu, kostel sv. Šimona a Judy, 19.00.</p>\n'
+            '      <p class="aktualita-text">Název koncertu 30 let spolu není nahodilý. Tak dlouho '
+            'totiž sídlí Hudební škola a Gymnázium hlavního města Prahy společně jako jedna velká '
+            'hudební rodina na Komenského náměstí na Žižkově. Ze snu ve skutečnost se tak proměnila '
+            'myšlenka Jana Vychytila, někdejšího ředitele vzorové školy ZUŠ Voršilská, který toužil '
+            'založit gymnázium, které by vedle vysoké úrovně hudební zajistilo také kvalitní vzdělání '
+            'všeobecné. Koncert tak připomeneme i nedožité 80. výročí jeho narození</p>\n'
+            '      <p class="aktualita-text">Třicet let, to je důvod i k malé bilanci a také '
+            'k setkávání. Samotnému koncertu proto bude jako preludium předcházet debata s absolventy '
+            'Gymnázia a Hudební školy – zpěvačkou a harfistkou Hanou Blažíkovou, violoncellistkou '
+            'Dominikou Weiss Hoškovou a Tomášem Jamníkem, která se uskuteční ve středu 11. listopadu '
+            'v 18 hodin v Koncertním sále školy. Ve čtvrtek 12. listopadu potom Hana Blažíková a '
+            'Tomáš Jamník povedou v Koncertním a Komorním sále školy masterclass. Všechny akce jsou '
+            'otevřeny i široké veřejnosti. Vstup zdarma.</p>\n'
+            '      <p class="aktualita-text" style="font-weight:600;margin-top:18px;margin-bottom:4px;">'
+            'Program koncertu</p>\n'
+            '      <p class="aktualita-text" style="margin-bottom:4px;">Antonín Dvořák: Legendy, '
+            'op. 59 (č. 3 Allegro giusto)</p>\n'
+            '      <p class="aktualita-text" style="margin-bottom:4px;">Antonín Dvořák: Slovanské '
+            'tance, op. 46 (č. 7 „Skočná“)</p>\n'
+            '      <p class="aktualita-text" style="margin-bottom:4px;">Josef Suk: Jaro, op. 22a, '
+            'č. 5. V roztoužení (instrum. Anatol Provazník)</p>\n'
+            '      <hr style="border:none;border-top:1px solid var(--bg-alt);margin:14px 0;">\n'
+            '      <p class="aktualita-text">Antonín Dvořák: Koncert pro violoncello a orchestr '
+            'h moll, op. 104, B191</p>\n'
+            '      <div class="aktualita-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">\n'
+            '        <iframe src="https://www.youtube.com/embed/yEh7L1o5Cj0" title="30 let spolu" '
+            'style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" '
+            'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '
+            'allowfullscreen loading="lazy"></iframe>\n'
+            '      </div>'
+        ),
+        "image": "aktualita-30-let-spolu.jpg",
+    },
+    {
+        "slug": "gmhs-slavi-tri-akce",
+        "category": ["gymnazium", "hudebni-skola"],
+        "date": "2026-11-02",
+        "title": "GMHS slaví! Setkání, masterclassy, koncert",
+        "excerpt": "Přijďte na uvolněné setkání s absolventy GMHS i na jejich následný masterclass.",
+        "body_html": (
+            '<p class="aktualita-text">30 let spolu! GMHS slaví koncertem s Tomášem Jamníkem '
+            'a masterclassy s Hanou Blažíkovou</p>\n'
+            '      <p class="aktualita-text">Třicet let společné existence Gymnázia a Hudební '
+            'školy hlavního města Prahy pod jednou střechou jako jedné velké hudební rodiny, to je '
+            'důvod i k malé bilanci a také k setkávání. Oslavy začnou malým preludiem - debatou '
+            's absolventy Gymnázia a Hudební školy – zpěvačkou a harfistkou Hanou Blažíkovou, '
+            'violoncellistkou Dominikou Weiss Hoškovou a violoncellistou Tomášem Jamníkem, která se '
+            'uskuteční ve středu 11. listopadu v 18 hodin v Koncertním sále školy. Ve čtvrtek '
+            '12. listopadu potom Hana Blažíková a Tomáš Jamník povedou v Koncertním a Komorním sále '
+            'školy masterclass. Oslavy potom vyvrcholí koncertem Symfonického orchestru GMHS se '
+            'sólistou Tomášem Jamníkem, pod taktovkou Petra Jiříkovského v pátek 13. listopadu '
+            'v kostele sv. Šimona a Judy.</p>\n'
+            '      <p class="aktualita-text">Všechny akce jsou otevřeny i široké veřejnosti. '
+            'Vstup zdarma.</p>'
+        ),
+        "image": "aktualita-gmhs-slavi-tri-akce.jpg",
+    },
 ]
