@@ -16,7 +16,7 @@ NAV = [
     ("O nás", "o-nas/uredni-deska.html", [
         ("o-nas/aktuality.html", "Aktuality"),
         ("o-nas/kontakt.html", "Kontakt"),
-        ("o-nas/personal.html", "Personál školy"),
+        ("o-nas/personal.html", "Lidé"),
         ("o-nas/srp-gmhs.html", "Sdružení rodičů a přátel GMHS"),
         ("o-nas/historie.html", "Historie"),
         ("o-nas/nasi-partnere.html", "Naši partneři"),

@@ -281,4 +281,15 @@ AKTUALITY = [
         ),
         "image": "aktualita-gmhs-slavi-tri-akce.jpg",
     },
+    {
+        "slug": "reditelske-volno-16-11",
+        "category": ["gymnazium", "hudebni-skola"],
+        "date": "2026-11-10",
+        "title": "Ředitelské volno",
+        "excerpt": "V pondělí 16. listopadu 2026 bude pro celou školu vyhlášeno ředitelské volno.",
+        "body_html": (
+            '<p class="aktualita-text">Ředitel školy oznamuje vyhlášení ředitelského volna na '
+            '16. listopadu 2026, a to pro celou školu (Gymnázium i Hudební škola).</p>'
+        ),
+    },
 ]

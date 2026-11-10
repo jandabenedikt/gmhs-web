@@ -74,6 +74,15 @@
    "url": ""
   },
   {
+   "title": "Ředitelské volno",
+   "allDay": true,
+   "start": "2026-11-16",
+   "end": null,
+   "location": "",
+   "description": "Ředitelské volno pro celou školu (Gymnázium i Hudební škola).",
+   "url": ""
+  },
+  {
    "title": "Koncert vítězů Písňové soutěže B. Martinů",
    "allDay": false,
    "start": "2026-11-23T19:00",
