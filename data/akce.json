@@ -1,15 +1,6 @@
 {
  "events": [
   {
-   "title": "Koncert",
-   "allDay": false,
-   "start": "2026-05-13T17:30",
-   "end": "2026-05-13T19:30",
-   "location": "Koncertní sál školy",
-   "description": "",
-   "url": ""
-  },
-  {
    "title": "Koncert klavírního oddělení",
    "allDay": false,
    "start": "2026-05-14T18:00",
