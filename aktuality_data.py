@@ -288,8 +288,22 @@ AKTUALITY = [
         "title": "Ředitelské volno",
         "excerpt": "V pondělí 16. listopadu 2026 bude pro celou školu vyhlášeno ředitelské volno.",
         "body_html": (
-            '<p class="aktualita-text">Ředitel školy oznamuje vyhlášení ředitelského volna na '
-            '16. listopadu 2026, a to pro celou školu (Gymnázium i Hudební škola).</p>'
+            '<p class="aktualita-text">Na pondělí 16.&nbsp;11.&nbsp;2026 je vyhlášeno ředitelské volno '
+            'pro celou školu. Výuka v tento den neprobíhá.</p>'
         ),
+    },
+    {
+        "slug": "oktavansky-koncert-2026",
+        "category": ["gymnazium", "hudebni-skola"],
+        "date": "2026-11-17",
+        "title": "Oktávanský koncert",
+        "excerpt": "Tradiční společný koncert oktáv Gymnázia a Hudební školy. Uvolněná atmosféra, skvělé výkony, radost z muziky a také překvapení! Modlitebna ČCE v Korunní ulici, č. 60",
+        "body_html": (
+            '<p class="aktualita-text">Přijďte se potěšit hudbou studentů oktáv Gymnázia a Hudební školy '
+            'hlavního města Prahy. Tradiční podzimní koncert představí v uvolněné atmosféře ten nejlepší '
+            'hudební „pozdní sběr“ a „výběr z oktáv“. Přijďte podpořit studenty v jejich maturitním ročníku '
+            'a nechat se unášet hudbou, kterou pro Vás připravili...</p>'
+        ),
+        "image": "aktualita-oktavansky-koncert.jpg",
     },
 ]
