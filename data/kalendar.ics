@@ -406,12 +406,13 @@ SUMMARY:Koncert vítězů Písňové soutěže B. Martinů
 LOCATION:Sál Martinů
 END:VEVENT
 BEGIN:VEVENT
-UID:6916e6144e7bee12d292@gmhs.cz
+UID:bf567b48e95683d1f0b3@gmhs.cz
 DTSTAMP:20261124T180000Z
 DTSTART:20261124T180000Z
-SUMMARY:Koncert – Symfonický orchestr GMHS a Konzervatoř J. Fuxe Graz
-LOCATION:Kostel Církve československé husitské\, Wuchterlova 5\, Praha 
- 6
+SUMMARY:Hudební most Praha–Graz – Symfonický orchestr GMHS a Landesju
+ gendsinfonieorchester Steiermark
+LOCATION:KD Domovina\, Na Manínách 1525/32a
+DESCRIPTION:Dirigenti Petr Jiříkovský a Thomas Platzgummer
 END:VEVENT
 BEGIN:VEVENT
 UID:cb674dfc6bfd74d4c428@gmhs.cz
