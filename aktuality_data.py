@@ -306,4 +306,31 @@ AKTUALITY = [
         ),
         "image": "aktualita-oktavansky-koncert.jpg",
     },
+    {
+        "slug": "hudebni-most-praha-graz",
+        "category": ["gymnazium", "hudebni-skola"],
+        "date": "2026-11-21",
+        "title": "Hudební most Praha–Graz",
+        "excerpt": "Symfonický orchestr GMHS a Landesjugendsinfonieorchester Steiermark společně vystoupí v úterý 24. 11. od 19.00 v KD Domovina. Zazní Dvořák, Suk, Enescu, Liszt, Dohnányi i Gershwin.",
+        "body_html": (
+            '<p class="aktualita-text">Srdečně Vás zveme na koncert Hudební most Praha–Graz, na kterém '
+            'se představí dva mládežnické symfonické orchestry: Symfonický orchestr Gymnázia a Hudební '
+            'školy hlavního města Prahy pod vedením dirigenta Petra Jiříkovského a rakouský '
+            'Landesjugendsinfonieorchester Steiermark s dirigentem Thomasem Platzgummerem.</p>\n'
+            '      <p class="aktualita-text"><strong>Úterý 24.&nbsp;11.&nbsp;2026 od 19.00, KD Domovina, '
+            'Na Manínách 1525/32a</strong></p>\n'
+            '      <p class="aktualita-text"><strong>Symfonický orchestr GMHS</strong><br>\n'
+            '      A. Dvořák: Legendy, op. 59 (č. 3)<br>\n'
+            '      Josef Suk: Jaro, op. 22a (V roztoužení)</p>\n'
+            '      <p class="aktualita-text"><strong>Landesjugendsinfonieorchester Steiermark</strong><br>\n'
+            '      A. Dvořák: Slavonic Rhapsody No. 1<br>\n'
+            '      George Enescu: Romanian Rhapsody No. 1<br>\n'
+            '      Franz Liszt (úprava Karl Müller-Berghaus): Hungarian Rhapsody No. 2<br>\n'
+            '      Ernst von Dohnányi: American Rhapsody Op. 47<br>\n'
+            '      George Gershwin (úprava Ray Heindorf): Rhapsody in Blue: Overture</p>\n'
+            '      <p class="aktualita-text">Koncert se koná ve spolupráci s Konzervatoří Johanna Josepha '
+            'Fuxe v Grazu a za podpory Evropské unie.</p>'
+        ),
+        "image": "aktualita-hudebni-most-praha-graz.jpg",
+    },
 ]
